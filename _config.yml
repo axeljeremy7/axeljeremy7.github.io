@@ -1,2 +1,4 @@
 name: Axel Solano, Lazy bot
 markdown: kramdown
+
+theme: jekyll-theme-hacker
