@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Axel Solano, Mr. Bot, First Launch"
+title: "First Launch"
 date: 2017-01-17
 ---
 
