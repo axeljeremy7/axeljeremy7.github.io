@@ -4,8 +4,9 @@ body {
     margin: 40px auto;
     width: 70%;
     */
-    
+
 }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -25,6 +26,10 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+.white{
+  color: white;
 }
 h1 {
     font-size: 3em;
