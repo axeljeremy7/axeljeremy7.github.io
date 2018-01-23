@@ -4,7 +4,7 @@ body {
     margin: 40px auto;
     width: 70%;
     */
-color: white;
+color: white !important;
 }
 
 nav ul, footer ul {
