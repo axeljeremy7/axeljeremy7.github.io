@@ -51,3 +51,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.mainBody {
+  margin-left: 30em;
+  margin-right: 30em;
+}
