@@ -89,6 +89,7 @@ p {
   margin-bottom: 1rem;
 }
 
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -8883,6 +8884,8 @@ a.text-light:hover, a.text-light:focus {
   color: #343a40 !important;
 }
 
+
+
 a.text-dark:hover, a.text-dark:focus {
   color: #1d2124 !important;
 }
@@ -8972,9 +8975,6 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
-
-
 /*myCSS.css*/
 
 /*CHANGE*/
@@ -8997,3 +8997,4 @@ a.text-dark:hover, a.text-dark:focus {
   margin:  0;
   background-color: blue;
 }
+/*# sourceMappingURL=bootstrap.css.map */
