@@ -1,0 +1,93 @@
+/*myCSS.css*/
+.nav-item > .nav-link, .navbar-brand {
+  color: white !important;
+}
+
+.bodyContent {
+  background-color: #FAF8F8;
+  padding: 1rem;
+  margin: 0;
+
+}
+
+.p-title {
+  color: #4682B4;
+  background-color: white;
+  text-align: center;
+
+}
+
+.topright1 {
+    position: absolute;
+    top: 0rem;
+    right: 3rem;
+}
+
+.topright {
+    position: absolute;
+    top: 0rem;
+    right: 0.5rem;
+}
+
+.bg-barra1 {
+  background-color: #1F2326;
+}
+.bg-all{
+  background-color: white;
+  padding: 0;
+  padding-right: 0;
+}
+
+.bg-grey {
+  background-color: #DCDCD6;
+  padding: 0;
+}
+
+.bg-barra2 {
+  background-color: #3D6B99;
+}
+
+.bodyContent2 {
+  background-color: #3D85CC;
+  padding: 3rem;
+}
+
+.barra2{
+  padding: 0;
+}
+
+.endPart {
+  background-color: #000000;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+footer {
+  padding: 0;
+  margin: 0;
+}
+
+.beginPart {
+  background-color: #A73B27;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.p-start{
+  margin: 0;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.p-end{
+  margin: 0;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*myCSS.css*/
