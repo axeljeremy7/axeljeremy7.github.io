@@ -39,7 +39,7 @@
 }
 
 .bg-grey {
-  background-color: #FAF8F8;
+  background-color: #FAF8F8 !important;
   padding: 0;
 }
 
