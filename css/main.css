@@ -20,10 +20,16 @@
 .topright1 {
     position: absolute;
     top: 0rem;
+    right: 6rem;
+}
+
+.topright2 {
+    position: absolute;
+    top: 0rem;
     right: 3rem;
 }
 
-.topright {
+.topright3 {
     position: absolute;
     top: 0rem;
     right: 0.5rem;
