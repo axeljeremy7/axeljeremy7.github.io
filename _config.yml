@@ -3,10 +3,22 @@ markdown: kramdown
 
 theme: jekyll-theme-hacker
 
+description: > # this means to ignore newlines until "baseurl:"
+  Algo.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://axeljeremy7.github.io"
+
+
 # Site permalink settings
 permalink: /:title/
 # End
 
+# Site menu settings
 menu:
+  - title: "Home"
+    url: "/home"
   - title: "Blog"
     url: "/blog"
+  - title: "Resume"
+    url: "/resume"
+# End
