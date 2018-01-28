@@ -2,12 +2,23 @@
 layout: default
 title: Axel J Solano's Blog
 ---
-{% for post in site.posts %}
-<li class="media my-4">
-  <img class="d-flex align-self-center mr-3" src="images/black-biohazard-64.png" alt="Generic placeholder image">
-  <div class="media-body">
-    <h5 class="mt-0 mb-1"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</h5>
-    {{post.content}}
+<ul class="list-unstyled text-justify">
 
-</li>
-{% endfor %}
+  <li class="">
+    <div class="">
+      <p>Title</p>
+    </div>
+  </li>
+
+  {% for post in site.posts %}
+  <li class="media my-4">
+    <img class="d-flex align-self-center mr-3" src="images/black-biohazard-64.png" alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</h5>
+      {{post.content}}
+
+  </li>
+  {% endfor %}
+
+
+</ul>
