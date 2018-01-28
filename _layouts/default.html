@@ -24,14 +24,15 @@
 		    <div class="collapse navbar-collapse" id="navbarNavDropdown-navbarText">
 		      <ul class="navbar-nav justify-content-center">
 		        <li class="nav-item">
-		          <a class="nav-link white" href="" >Home <span class="sr-only"></span></a>
+		          <a class="nav-link white" href="{{ '/' | relative_url }}" >Home <span class="sr-only"></span></a>
 		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="/blog">Blog</a>
+            {% for item in site.menu %}
+            <li class="nav-item">
+		          <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
 		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link" href="/resume">Resume</a>
-		        </li>
+            {% endfor %}
+
+
 						<!-- Not using this part
 		        <li class="nav-item dropdown">
 		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
