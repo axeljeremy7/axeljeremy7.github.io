@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "This is not first post"
 date: 2018-01-11
 ---
