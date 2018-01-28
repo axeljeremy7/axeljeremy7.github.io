@@ -1,9 +1,8 @@
 ---
 layout: default
-title: A J S's Blog
 ---
 <ul class="list-unstyled text-justify">
-
+  {{ content }}
   <li class="">
     <div class="">
       <p>{{page.title}}</p>
@@ -16,9 +15,7 @@ title: A J S's Blog
     <div class="media-body">
       <h5 class="mt-0 mb-1"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</h5>
       {{post.content}}
-        </div>
+    </div>
   </li>
   {% endfor %}
-
-
 </ul>
