@@ -1,17 +1,12 @@
 ---
-layout: post
+layout: default
 title: Axel J Solano's Blog
 ---
-
-<ul class="list-unstyled text-justify">
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
-		<li class="">
-			<div class="">
-				{% for post in site.posts %}
-				<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
-	</li>
-</ul>
+{% for post in site.posts %}
+<li class="media my-4">
+  <img class="d-flex align-self-center mr-3" src="images/black-biohazard-64.png" alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0 mb-1"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</h5>
+    {{post.content}}
+  {% endfor %}
+</li>
