@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "This is not first post"
+title: "This is not my first post"
 date: 2018-01-11
 ---
 
