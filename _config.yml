@@ -15,8 +15,6 @@ permalink: /:title/
 
 # Site menu settings
 menu:
-  - title: "Home"
-    url: "/home"
   - title: "Blog"
     url: "/blog"
   - title: "Resume"
