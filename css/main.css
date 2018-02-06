@@ -95,5 +95,8 @@ footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.goright {
+  justify-content: flex-end;
+}
 
 /*myCSS.css*/
