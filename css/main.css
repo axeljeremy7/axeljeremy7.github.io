@@ -98,10 +98,11 @@ footer {
 .put-center {
   width: 100%;
   text-align: center;
-  > li {
-    float: none;
-    display: inline-block;
-  }
+
+}
+.li-center {
+  float: none;
+  display: inline-block;
 }
 
 /*myCSS.css*/
