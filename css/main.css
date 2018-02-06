@@ -95,8 +95,13 @@ footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.goright {
-  justify-content: flex-end;
+.put-center {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
 }
 
 /*myCSS.css*/
