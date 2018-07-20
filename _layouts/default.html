@@ -1,41 +1,28 @@
 <!DOCTYPE html>
-<html>
-<!-- head -->
+<html lang="en">
+<!-- header -->
 <head>
-
-	<title>{{ page.title }}</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<link rel="stylesheet" type="text/css" href="{{ "/css/bp/css/bootstrap.css" | prepend: site.baseurl | prepend: site.url }}" media="screen">
-	<link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}" media="screen">
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="js/bootstrap/respond.min.js"></script>
-	<script src="js/bootstrap/html5shiv.js"></script>
-	<![endif]-->
+	{% include header.html %}
 </head>
 <!--      -->
 
 <body>
-	<!-- header -->
-	<div class="container-fluid beginPart">
-		<p class=""> Header Part 7 </p>
-	</div>
-	<!--        -->
 
-	<!--  BODY PART -->
-	<div class="container-fluid ">
-		<div class="container ">
-			{{content}}
-		</div>
-	</div>
-	<!--  End of BODY PART-->
+
+{% if page.layout == "blog" %}
+	{{ content }}
+{% elsif page.layout == "portf" %}
+ {{ content }}
+{% else %}
+	{{ content }}
+{% endif %}
+
+
 
 	<!-- footer -->
 	{% include footer.html %}
 	<!--        -->
-
-
+	 {% include scripts.html %}
 </body>
+
 </html>
