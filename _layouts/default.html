@@ -7,16 +7,31 @@
 <!--      -->
 
 <body>
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-8 col-sm-12">
+				<!-- Fixed navbar -->
+			    <nav class="navbar navbar-default navbar-fixed-top">
+			      <div class="container">
+			        <div class="navbar-header">
+			          <a class="navbar-brand" href="#">Axel Jeremy</a>
+			        </div>
+			      </div>
+			    </nav>
+					<!-- Fixed navbar end -->
 
+					{{ content }}
 
-{% if page.layout == "blog" %}
-	{{ content }}
-{% elsif page.layout == "portf" %}
- {{ content }}
-{% else %}
-	{{ content }}
-{% endif %}
+			</div>
+			<div class="col-4 col-sm-12">
 
+				Square 2
+
+			</div>
+
+		</div>
+
+	</div>
 
 
 	<!-- footer -->

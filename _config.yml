@@ -2,14 +2,25 @@ name: Axel Solano, Lazy bot
 markdown: kramdown
 
 
-description:
+description: "The home page of Axel"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://axeljeremy7.github.io"
+website_repo_url: "https://github.com/axeljeremy7"
 
-
-# Site permalink settings
-permalink: /:title/
-# End
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/axel-solano/"
+    label: "LinkedIn"
+    icon: "blue-linkedin-64"
+  github:
+    url: "https://github.com/axeljeremy7"
+    label: "GitHub"
+    icon: "black-github-64"
+  email:
+    url: "mailto:axel.jeremy.7@gmail.com"
+    label: "Email"
+    value: "axel.jeremy.7@gmail.com"
+    icon: "mail-64"
 
 # Site menu settings
 menu:
@@ -18,5 +29,6 @@ menu:
   - title: "Resume"
     url: "/resume"
   - title: "Portfolio"
-    url: "/portfolio"  
+    url: "/portfolio"
+
 # End
