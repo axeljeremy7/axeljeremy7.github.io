@@ -1,0 +1,168 @@
+#content{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* hide the x-scroll becuase of container-fluid*/
+  overflow-y: hidden;
+}
+
+#row-all{
+  padding: 0;
+  margin: 0;
+}
+
+#top-row{
+  margin: 0;
+  padding: 0;
+}
+
+#top-row-left {
+  margin: 0;
+  padding: 0;
+}
+
+#top-row-right{
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.navbar-brand {
+  /* padding-left: 1em; */
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.77em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#myname {
+
+}
+
+.navbar-fixed-top {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item > a:hover {
+  background-color: grey;
+}
+
+#sections-nav{
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+}
+
+.social {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+#body-row{
+  background-color: #F3F3F3;
+  margin: 0;
+  padding: 0;
+}
+
+#body-row-left{
+  margin: 0;
+  padding: 0;
+}
+
+#body-row-right {
+  margin: 0;
+  padding: 0;
+}
+
+#body-left {
+  margin: 0;
+  padding: 0;
+}
+
+#body-right{
+  margin: 0;
+  padding: 0;
+
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background:#C4C4C4;
+}
+
+#left {
+  padding: 2em;
+  background-color: #FDFFFC;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1em;
+
+}
+@media (min-width: 768px) {
+  #left {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  #content{
+    overflow-y: auto;
+  }
+}
+
+#intro {
+  padding: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  background-color: #F2F2F2;
+  font-family: 'Rajdhani', sans-serif;
+  margin-bottom: 1em;
+}
+
+#coursework{
+  margin-bottom: 1em;
+}
+
+#coursework-title{
+  font-size: 1.5em;
+}
+
+
+#coursework1{
+    font-size: 1em;
+}
+
+#coursework2{
+    font-size: 1em;
+
+}
+
+#skills{
+  margin-bottom: 1em;
+
+}
+
+#work{
+  margin-bottom: 2em;
+}
+
+#right{
+  padding: 2em;
+}
+
+#content-right{
+  margin-right: 3em;
+  padding: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+}

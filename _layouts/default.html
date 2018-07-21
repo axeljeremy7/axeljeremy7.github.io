@@ -6,39 +6,64 @@
 </head>
 <!--      -->
 
-<body>
+<body id="content">
 
-	<div class="container-fluid ">
-		<div class="row">
-			<div class="col-12 col-sm-8">
+	<div class="container-fluid" id="row-all">
+		<div class="row" id="top-row">
+			<div class="col-12 col-sm-12 col-md-8" id="top-row-left">
 				<!-- Fixed navbar -->
 			    <nav class="navbar navbar-default navbar-fixed-top bg-dark ">
-			      <div class="container">
-			        <div class="navbar-header">
-								<a class="navbar-brand text-white" href="{{ site.url }}">Axel Jeremy Solano</a>
-			        </div>
-			      </div>
+						<a class="navbar-brand text-white text-center"  id="myname" href="{{ site.url }}">Axel Jeremy Solano</a>
 			    </nav>
 					<!-- Fixed navbar end -->
-
-					{{ content }}
-
 			</div>
-			<div class="col-12 col-sm-4">
-
-				Square 2
-
+			<div class="col-12 col-sm-12 col-md-4" id="top-row-right">
+				<nav class="navbar-fixed-top bg-secondary">
+					<ul class="nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link active text-white" id="sections-nav" href="#">Projects</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link text-white" id="sections-nav" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" id="sections-nav" href="#">Contact</a>
+						</li>
+					</ul>
+			</nav>
 			</div>
 
 		</div>
+		<div class="row" id="body-row">
+			<div class="col-12 col-sm-12 col-md-8" id="body-row-left">
+				<div class="container-fluid " id="body-left">
+					{{content}}
+				</div>
+			</div>
 
+			<div class="col-12 col-sm-12 col-md-4 col-right" id="body-row-right">
+				<div class="container-fluid " id="body-right">
+					<div id="right">
+						<div class="row">
+							<div class="col-12" id="content-right">
+								<p>In progress</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
+
 
 
 	<!-- footer -->
 	{% include footer.html %}
 	<!--        -->
 	 {% include scripts.html %}
+
+
 </body>
 
 </html>

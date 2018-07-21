@@ -3,24 +3,28 @@ markdown: kramdown
 
 
 description: "The home page of Axel"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://axeljeremy7.github.io"
+
+
+url: "http://127.0.0.1:4000"
 website_repo_url: "https://github.com/axeljeremy7"
+
+square2:
+  description: "This is square 2"
 
 contact_urls:
   linkedin:
     url: "https://www.linkedin.com/in/axel-solano/"
     label: "LinkedIn"
-    icon: "blue-linkedin-64"
+    icon: "/assets/img/white-linkedin-64.png"
   github:
     url: "https://github.com/axeljeremy7"
     label: "GitHub"
-    icon: "black-github-64"
+    icon: "/assets/img/github-64.png"
   email:
     url: "mailto:axel.jeremy.7@gmail.com"
     label: "Email"
     value: "axel.jeremy.7@gmail.com"
-    icon: "mail-64"
+    icon: "/assets/img/mail-64.png"
 
 # Site menu settings
 menu:

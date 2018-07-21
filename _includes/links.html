@@ -1,0 +1,11 @@
+
+  <nav class="navbar navbar-default bg-info ">
+    <ul class="nav justify-content-center">
+      {% for contact_links in site.contact_urls %}
+        {% assign clinks = contact_links[1]%}
+      <li class="nav-item">
+        <a class="nav-link " href="{{ clinks.url}}"><img class="social" src="{{ clinks.icon }}" alt="{{clinks.label}}"></a>
+      </li>
+      {% endfor %}
+    </ul>
+</nav>
