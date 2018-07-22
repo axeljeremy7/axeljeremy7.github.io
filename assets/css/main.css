@@ -1,8 +1,22 @@
 #content{
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* hide the x-scroll becuase of container-fluid*/
-  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#float-button{
+  position: fixed;
+	right:1em;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #741200;
+  z-index:1000; /*to be show*/
+  vertical-align: middle;
+
 }
 
 #row-all{
@@ -13,11 +27,13 @@
 #top-row{
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 #top-row-left {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 #top-row-right{
@@ -25,6 +41,21 @@
   padding: 0;
 
 
+}
+#top-bar-left{
+  background-color: #741200;
+  width: 100%;
+
+}
+
+.topfixed{
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+#top-bar-right{
+  background-color: #033748;
 }
 
 .navbar-brand {
@@ -47,7 +78,7 @@
 }
 
 .nav-item > a:hover {
-  background-color: grey;
+  background-color: #3A768A;
 }
 
 #sections-nav{
@@ -97,8 +128,85 @@
   background:#C4C4C4;
 }
 
+#right{
+  padding: 2em;
+
+}
+
+#right-content-row{
+  padding: 1em;
+  padding-bottom: 2em;
+  border-style: groove;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #2A6072;
+  background-color: #065F7C;
+
+}
+
+#right-content {
+  padding: 1em;
+  margin-bottom: 2em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2A6072;
+  border-radius: 5px;
+  background-color: #86BED0;
+
+}
+#hide-button {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2em;
+
+}
+#hide-button > a{
+  padding: 0.5em;
+  padding-left: 4px;;
+  background-color: #86BED0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2A6072;
+  border-radius: 5px;
+
+}
+
+#hide-button > a:hover{
+  background-color: #298FB1;
+}
+
+#right-content-links{
+  padding: 0;
+  margin: 0;
+}
+
+#right-links{
+  margin: 0.25em;;
+  padding: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #2B758D;
+  border-color: #056889;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#right-links:hover{
+  background-color: #298FB1;
+}
+
+#img-links{
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+}
+
+
+
+
 #left {
   padding: 2em;
+  padding-bottom: 5em;
   background-color: #FDFFFC;
   font-family: 'Rajdhani', sans-serif;
   font-size: 1em;
@@ -107,25 +215,27 @@
 @media (min-width: 768px) {
   #left {
     height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: auto;
+
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #content{
     overflow-y: auto;
+    /* overflow-x: hidden; */
   }
 }
+
 
 #intro {
   padding: 1em;
+  margin-bottom: 1em;
   border-style: solid;
   border-width: 1px;
-  border-color: grey;
-  background-color: #F2F2F2;
-  font-family: 'Rajdhani', sans-serif;
-  margin-bottom: 1em;
+  border-radius: 5px;
+  border-color: #745200;
+  background-color: #FFE69B;
 }
 
 #coursework{
@@ -136,7 +246,10 @@
   font-size: 1.5em;
 }
 
-
+.card , #lista > li {
+  border-color: #C24933 !important;
+  color: #033748;
+}
 #coursework1{
     font-size: 1em;
 }
@@ -148,21 +261,18 @@
 
 #skills{
   margin-bottom: 1em;
-
 }
 
-#work{
-  margin-bottom: 2em;
-}
-
-#right{
-  padding: 2em;
-}
-
-#content-right{
-  margin-right: 3em;
+#skills-item{
   padding: 1em;
   border-style: solid;
   border-width: 1px;
-  border-color: grey;
+  border-radius: 5px;
+  border-color: #745200;
+  background-color: #FFE69B;
+  margin-bottom: 1em;
+}
+
+#work{
+  margin-bottom: 1em;
 }

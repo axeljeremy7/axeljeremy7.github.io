@@ -8,3 +8,79 @@ $(function() {
 $('[data-toggle="popover"]').popover()
 })
 </script>
+
+<script type="text/javascript">
+$("#float-button").hide();
+
+$("#hide-button").click(function(){
+  $("#top-row-right").hide();
+  $("#body-row-right").hide();
+  $("#top-row-left").removeClass("col-md-8");
+  $("#body-row-left").removeClass("col-md-8");
+  $("#float-button").show();
+  $("#float-button i").css("border-color", "white");
+
+});
+
+$("#float-button").click(function(){
+  $("#top-row-right").show();
+  $("#body-row-right").show();
+  $("#top-row-left").addClass("col-md-8");
+  $("#body-row-left").addClass("col-md-8");
+  $("#float-button").hide();
+
+});
+
+$(window).resize(function(){
+  if ($(this).width() < 768) {
+    $("#hide-button").hide();
+  }
+
+  if ($(this).width() >= 767) {
+    $("#hide-button").show();
+    console.log(window.pageYOffset);
+    // $("#content").css("overflow", "auto");
+    // $("#content").scrollTop(0);
+    // $("#content").css("overflow", "hidden");
+    // $("#left").scrollTop(0);
+    // $("#left").offset({ top: 0, left: 0 });
+    $("#content").offset({ top: 0, left: 0 });
+    $("#content").scrollTop(0);
+    console.log(window.pageYOffset);
+    console.log("ld");
+
+  }
+
+});
+
+$(window).resize(function(){
+if (window.pageYOffset == 52) {
+  console.log("ax");
+  $("#content").scrollTop(0);
+  window.pageYOffset = 0;
+
+}
+});
+
+if ($(window).width() <= 768) {
+  $("#hide-button").hide();
+}else {
+  $("#hide-button").show();
+}
+
+
+
+$(window).scroll(function() {
+  if (window.pageYOffset >= 0) {
+    console.log(window.pageYOffset);
+    console.log("in");
+  }
+});
+
+$("#left").scroll(function() {
+  console.log($("#left").scrollTop());
+});
+
+
+
+</script>

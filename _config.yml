@@ -1,15 +1,20 @@
+
+
 name: Axel Solano, Lazy bot
 markdown: kramdown
 
 
-description: "The home page of Axel"
+description: "This page was created to show my projects and skills.
+You can hide this column with the button below."
+
+description2: "Also, If you'd like to contact me, jutst click on the icons below."
 
 
 url: "https://axeljeremy7.github.io"
+#url: "http://127.0.0.1:4000"
 website_repo_url: "https://github.com/axeljeremy7"
 
-square2:
-  description: "This is square 2"
+
 
 contact_urls:
   linkedin:
@@ -28,11 +33,11 @@ contact_urls:
 
 # Site menu settings
 menu:
+  - title: "Projects"
+    url: "/projects"
+  - title: "About"
+    url: "https://axeljeremy7.github.io"
   - title: "Blog"
     url: "/blog"
-  - title: "Resume"
-    url: "/resume"
-  - title: "Portfolio"
-    url: "/portfolio"
 
 # End
