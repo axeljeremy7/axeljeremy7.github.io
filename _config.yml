@@ -10,11 +10,39 @@ You can hide this column with the button below."
 description2: "Also, If you'd like to contact me, jutst click on the icons below."
 
 
-url: "https://axeljeremy7.github.io"
-#url: "http://127.0.0.1:4000"
+#url: "https://axeljeremy7.github.io"
+url: "http://127.0.0.1:4000"
 
 
-
+repo_urls:
+  mypage:
+    url: "https://github.com/axeljeremy7/axeljeremy7.github.io"
+    label: "My GitHub Page"
+    icon: ""
+  botgroupme:
+    url: "https://github.com/axeljeremy7/bot"
+    label: "A Groupme Bot"
+    icon: ""
+  hn:
+    url: "https://github.com/axeljeremy7/HackerNews"
+    label: "Hacker News on Android"
+    icon: ""
+  huffman:
+    url: "https://github.com/axeljeremy7/HuffmanCode"
+    label: "Huffman Code"
+    icon: ""
+  kruskal:
+    url: "https://github.com/axeljeremy7/Kruskal-Algorithm"
+    label: "Kruskal Algorithm"
+    icon: ""
+  knack:
+    url: "https://github.com/axeljeremy7/Knapsack-Algorithm"
+    label: "Knapsack Algorithm"
+    icon: ""
+  ml3:
+    url: "https://github.com/axeljeremy7/Tree-models"
+    label: "Tree model on R"
+    icon: ""
 
 contact_urls:
   linkedin:
