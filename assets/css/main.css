@@ -19,6 +19,10 @@
 
 }
 
+[data-toggle~="collapse"] {
+    cursor: pointer;
+}
+
 #row-all{
   padding: 0;
   margin: 0;
