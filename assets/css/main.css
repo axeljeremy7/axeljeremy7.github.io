@@ -14,7 +14,7 @@
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: #741200;
-  z-index:1000; /*to be show*/
+  z-index:99; /*to be show*/
   vertical-align: middle;
 
 }
@@ -25,6 +25,9 @@
 }
 
 #top-row{
+  top: 0;
+  position: sticky;
+  z-index: 98;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -48,11 +51,7 @@
 
 }
 
-.topfixed{
-  position: fixed;
-  top: 0;
-  z-index: 11;
-}
+
 
 #top-bar-right{
   background-color: #033748;
@@ -95,6 +94,7 @@
   background-color: #F3F3F3;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 #body-row-left{
@@ -212,7 +212,7 @@
   font-size: 1em;
 
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #left {
     height: 100vh;
     overflow-y: auto;
