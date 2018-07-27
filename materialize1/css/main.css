@@ -1,0 +1,33 @@
+.section-search input{
+  padding: 0.25em !important;
+  font-size: 1em !important;
+  width: 90% !important;
+  border-color: white !important;
+  border-style: solid !important;
+  border-width: 3px !important;
+
+}
+
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.section-follow .fa-2x{
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+
+}
+
+/* .altura{
+  height: 103px !important;
+} */
+
+.centro{
+  margin-left: 3em !important;
+  margin-right: 3em !important;
+
+}
