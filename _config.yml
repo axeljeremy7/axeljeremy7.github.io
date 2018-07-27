@@ -45,8 +45,8 @@ repo_urls:
     label: "Tree model on R"
     icon: ""
   mater1:
-    url: "https://github.com/axeljeremy7/materialize1"
-    label: "Materialize #1 : Westworld - https://axeljeremy7.github.io/materialize1/"
+    url: "https://axeljeremy7.github.io/materialize1/"
+    label: "Materialize #1 : Westworld "
     icon: ""
 
 contact_urls:
