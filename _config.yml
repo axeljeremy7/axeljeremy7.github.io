@@ -48,6 +48,11 @@ repo_urls:
     url: "https://axeljeremy7.github.io/materialize1/"
     label: "Materialize #1 : Westworld - Click to see in live"
     icon: ""
+  groupCal:
+    url: "https://github.com/axeljeremy7/GroupCalendar"
+    label: "Group Calendar website"
+    icon: ""
+
 
 contact_urls:
   linkedin:
