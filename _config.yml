@@ -56,6 +56,10 @@ repo_urls:
     url: "https://github.com/axeljeremy7/PUBG"
     label: "PUBG Kaggle Playground"
     icon: ""
+  For SalesPage - Data Matching Problem:
+    url: "https://github.com/OryGregS/SeniorProject"
+    label: "Fuzzy Record Linkage - Data Matching Problem"
+    icon: ""
 
 
 contact_urls:
