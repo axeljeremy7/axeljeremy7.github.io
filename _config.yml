@@ -52,6 +52,10 @@ repo_urls:
     url: "https://github.com/axeljeremy7/GroupCalendar"
     label: "Group Calendar website"
     icon: ""
+  PUBG:
+    url: "https://github.com/axeljeremy7/PUBG"
+    label: "PUBG Kaggle Playground"
+    icon: ""
 
 
 contact_urls:
