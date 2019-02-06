@@ -240,8 +240,8 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  border-color: #745200;
-  background-color: #FFE69B;
+  border-color: #741200;
+  background-color: whitesmoke;
 }
 
 #coursework{
@@ -275,7 +275,7 @@
   border-width: 1px;
   border-radius: 5px;
   border-color: #745200;
-  background-color: #FFE69B;
+  background-color: whitesmoke;
   margin-bottom: 1em;
 }
 
