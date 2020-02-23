@@ -16,6 +16,10 @@ url: "https://axeljeremy7.github.io"
 resume_url: "https://drive.google.com/file/d/1SBI-9bjnO7gq9LAbuqhgDtiMnsYBjUtK/view?usp=sharing"
 
 repo_urls:
+  React App - Music App - Live Now!:
+    url: "https://music-app-1-dba6f.firebaseapp.com/home"
+    label: "React App - Music App - Live Now!"
+    icon: ""
   mypage:
     url: "https://github.com/axeljeremy7/axeljeremy7.github.io"
     label: "My GitHub Page"
