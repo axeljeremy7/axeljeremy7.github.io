@@ -17,7 +17,7 @@ resume_url: "https://drive.google.com/file/d/1SBI-9bjnO7gq9LAbuqhgDtiMnsYBjUtK/v
 
 repo_urls:
   React App - Music App - Live Now!:
-    url: "https://music-app-1-dba6f.firebaseapp.com/home"
+    url: "https://music-app-1-dba6f.firebaseapp.com"
     label: "React App - Music App - Live Now!"
     icon: ""
   mypage:
