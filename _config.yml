@@ -58,7 +58,7 @@ repo_urls:
     icon: ""
   PUBG:
     url: "https://github.com/axeljeremy7/PUBG"
-    label: "PUBG Kaggle Playground"
+    label: "PUBG Kaggle"
     icon: ""
   For SalesPage - Data Matching Problem:
     url: "https://github.com/OryGregS/SeniorProject"
