@@ -13,7 +13,7 @@
   margin: 0;
   margin-top: 1em;
   margin-bottom: 1em;
-  background-color: #741200;
+  background-color: transparent;
   z-index:99; /*to be show*/
   vertical-align: middle;
 
@@ -52,7 +52,7 @@
 
 }
 #top-bar-left{
-  background-color: #741200;
+  background-color: #033748;
   width: 100%;
 
 }
@@ -240,8 +240,8 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  border-color: #741200;
-  background-color: whitesmoke;
+  border-color: #022530;
+  /* background-color: whitesmoke; */
 }
 
 #coursework{
@@ -253,7 +253,7 @@
 }
 
 .card , #lista > li {
-  border-color: #C24933 !important;
+  border-color: #022530 !important;
   color: #033748;
 }
 #coursework1{
@@ -274,8 +274,8 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  border-color: #741200;
-  background-color: whitesmoke;
+  border-color: #022530;
+  /* background-color: whitesmoke; */
   margin-bottom: 1em;
 }
 

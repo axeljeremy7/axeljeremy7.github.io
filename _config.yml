@@ -7,11 +7,15 @@ markdown: kramdown
 description: "This site was created to show my resume, projects, skills and is still work in progress.
 You can hide this column with the button below."
 
-description2: "Also, If you'd like to contact me, jutst click on the icons below."
+description2: "Also, If you'd like to contact me, just click on the icons below."
+
+description3: " I'm an international programmer from Peru (F-1, OPT). I graduated with a major in computer science and a minor in data science. 
+      I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing. I'm currently working as Full-Stack developer using JS and PHP, with 
+      frameworks such as React, React Native and Symfony."
 
 
-url: "https://axeljeremy7.github.io"
-#url: "http://127.0.0.1:4000"
+# url: "https://axeljeremy7.github.io"
+url: "http://127.0.0.1:4000"
 
 resume_url: "https://drive.google.com/file/d/1g0pW2Nr4piClW6pM1eK980NX78zoxmc4/view?usp=sharing"
 
