@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- header -->
+
 <head>
 	{% include header.html %}
 </head>
 <!--      -->
 
-<body id="content">
-
-	<a id="float-button"> <i class="left"></i> </a>
-
-	<div class="container-fluid" id="row-all">
-		<div class="row" id="top-row">
-			<div class="col-12 col-sm-12 col-md-8" id="top-row-left">
-				<!-- Fixed navbar -->
-			    <nav class="navbar navbar-default navbar-fixed-top" id="top-bar-left">
-						<a class="navbar-brand text-white text-center"  id="myname" href="{{ site.url }}">Axel Jeremy Solano</a>
-			    </nav>
-					<!-- Fixed navbar end -->
-			</div>
-			<div class="col-12 col-sm-12 col-md-4" id="top-row-right">
-				<nav class="navbar-fixed-top" id="top-bar-right">
-					<ul class="nav justify-content-center">
-						<li class="nav-item">
-							<a class="nav-link active text-white" id="sections-nav" href="../proyects">Projects</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link text-white" id="sections-nav" href="../">About</a>
-						</li>
-						<!-- <li class="nav-item">
-							<a class="nav-link text-white" id="sections-nav" href="#">Blog</a>
-						</li> -->
-					</ul>
-			</nav>
-			</div>
-
+<body>
+	<div id="sidebar">
+		<div id="about">
+			{% include about.html %}
 		</div>
-
-		<div class="row" id="body-row">
-			<div class="col-12 col-sm-12 col-md-8" id="body-row-left">
-				<div class="container-fluid " id="body-left">
-					{{content}}
-
-				</div>
+		<div class='line-break'></div>
+		<div>
+		    <div onclick="function hi(elem){console.log(elem);};hi(this);">
+				About
 			</div>
-
-			<div class="col-12 col-sm-12 col-md-4 col-right" id="body-row-right">
-				<div class="container-fluid " id="body-right">
-					<div id="right">
-						{% include about.html %}
-						</div>
-					</div>
-				</div>
+			<div>
+				Experience
 			</div>
-
+			<div>
+				Skills
+			</div>
+			<div>
+				Education
+			</div>
+			<div>
+				Resume
+			</div>
+			<div>
+				Projects
+			</div>
 		</div>
+	</div>
+	<div id="content">
+
+	</div>
+	<!-- <div id="content">
+		{{content}}
+	</div> -->
+	</div>
 
 
 
@@ -64,7 +50,7 @@
 	<!-- footer -->
 	{% include footer.html %}
 	<!--        -->
-	 {% include scripts.html %}
+	{% include scripts.html %}
 
 
 </body>

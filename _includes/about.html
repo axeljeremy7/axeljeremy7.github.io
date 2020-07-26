@@ -1,19 +1,27 @@
-<div class="row" id="right-content-row">
-  <div class="col-12" id="right-content">
-    {{site.description}}
+<div class="grid-center about">
+  <div class="about-name font-white">
+    {{site.name }}
   </div>
-  <div class="col-12 text-center" id="hide-button">
-    <a > <i class="right"></i> </a>
+  <div class="about-profile-image-container grid-center">
+    <img
+      class="about-profile-image"
+      src="https://i.cbc.ca/1.5037161.1582212836!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/artificial-intelligence.jpg"
+    />
   </div>
-  <div class="col-12" id="right-content">
-    {{site.description2}}
+  <div class="font-white grid-center">
+    {{site.introduction}}
   </div>
 
-  <div class="col-12 text-center " id="resume">
+  <!-- <div>
     <a id="resume-link" href="{{site.resume_url}}"> DOWNLOAD RESUME</a>
-  </div>
+  </div> -->
 
-  <div class="col-12 text-center " id="right-content-links">
-    {% include links.html %}
+  <div class="about-container-links">
+    {% for contact_links in site.contact_urls %} {% assign clinks =
+    contact_links[1]%}
+    <a href="{{ clinks.url }}" class="contact-link-container bg-transparent">
+      <i class="{{ clinks.class }} bg-transparent" aria-hidden="true"></i>
+    </a>
+    {% endfor %}
   </div>
 </div>
