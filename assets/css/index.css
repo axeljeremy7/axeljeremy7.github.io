@@ -393,5 +393,9 @@ img {
     row-gap: 32px;
   }
 
+  .skill-item{
+    padding: 4px 8px;
+  }
+
 }
 
