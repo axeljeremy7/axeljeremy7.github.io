@@ -11,14 +11,109 @@ You can hide this column with the button below."
 description2: "Also, If you'd like to contact me, just click on the icons below."
 
 description3: "I'm an international programmer from Lima, Peru (F-1, STEM-OPT). I graduated with a major in computer science and a minor in data science. 
-      I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing. I'm currently working as Full-Stack developer using JS and PHP, with 
-      frameworks such as React, React Native and Symfony."
+      I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing. I'm currently working as Full-Stack engineer in CorePHP using JS and PHP, with 
+      mainly frameworks or libraries such as React, React Native and Symfony."
 
 
-# url: "https://axeljeremy7.github.io"
-url: "http://127.0.0.1:4000"
+url: "https://axeljeremy7.github.io"
+# url: "http://127.0.0.1:4000"
 
 resume_url: "https://drive.google.com/file/d/1g0pW2Nr4piClW6pM1eK980NX78zoxmc4/view?usp=sharing"
+
+experience:
+  Full-Stack Engineer 1:
+    title: "Full-Stack Engineer"
+    date: "September 2019" 
+    list:
+      - Developed and maintained web and mobile applications using React, React Native and Symfony.
+      - Integration with AWS services.
+      - REST API design and development.
+      - Assembled Chat Application in React and React Native using Twilio SDK.
+  Teaching Assistant/Grader for R Programming for Data Science:
+    title: "Teaching Assistant/Grader for R Programming for Data Science"
+    date: "January 2018 & 2019 - April 2018 & 2019" 
+    list:
+      - Assisted professor in the development of evaluations and multiple learning methods.
+      - Communicated effectively to students to accelerate their learning process.
+  Teaching Assistant/Grader for Storage, Retrieval & Processing Big Data:
+    title: "Teaching Assistant/Grader for Storage, Retrieval & Processing Big Data"
+    date: "September - December 2018" 
+    list:
+      - Assisted professor in Hadoop and hardware and software storage. 
+  Teaching Assistant/Grader for Big Data, Cloud & loT:
+    title: "Teaching Assistant/Grader for Big Data, Cloud & loT"
+    date: "June - August 2018" 
+    list:
+      - Graded and provided feedback for assignments for Google Cloud Services and AWS.
+  Teaching Assistant/Grader for Database Management Systems:
+    title: "Teaching Assistant/Grader for Database Management Systems"
+    date: "June - August 2018" 
+    list:
+      - Graded and provided feedback for assignments for MySQL databases.
+  Intramural Official:
+    title: "Intramural Official"
+    date: "October 2017 - April 2019" 
+    list:
+      - Referee for soccer and volleyball.
+      - Team work and coordination with my partner referee to maintain sportsmanship.
+      - Communicated effectively with players about sport rules and policies.
+
+
+skills:
+  React:
+    skill: "React"
+    img: ""
+  React Native:
+    skill: "React Native"
+    img: ""  
+  Symfony:
+    skill: "Symfony"
+    img: ""
+  Python:
+    skill: "Python"
+    img: ""
+  JS:
+    skill: "JS"
+    img: ""
+  Node.js:
+    skill: "Node.js"
+    img: ""
+  Express:
+    skill: "Express"
+    img: ""
+  REST:
+    skill: "REST"
+    img: ""  
+  GraphQL:
+    skill: "GraphQL"
+    img: ""  
+  Java:
+    skill: "Java"
+    img: ""  
+  Maven:
+    skill: "Maven"
+    img: ""
+  Ruby:
+    skill: "Ruby"
+    img: ""
+  C/C++:
+    skill: "C/C++"
+    img: ""
+  PHP:
+    skill: "PHP"
+    img: ""
+  C#/.NET:
+    skill: "C#/.NET"
+    img: "" 
+  AWS:
+    skill: "AWS"
+    img: ""
+  GCP:
+    skill: "GCP"
+    img: ""        
+  TensorFlow:
+    skill: "TensorFlow"
+    img: "" 
 
 repo_urls:
   React App - Music App - Live Now!:
@@ -89,15 +184,14 @@ contact_urls:
     icon: "/assets/img/mail-64.png"
     class: "fa fa-envelope"
   twitter:
-    url: "https://www.linkedin.com/in/axel-solano/"
+    url: "https://twitter.com/axeljeremy7"
     label: "Twitter"
     class: "fa fa-twitter"
   Medium:
-    url: "https://www.linkedin.com/in/axel-solano/"
+    url: "https://medium.com/@axel.jeremy.7"
     label: "Medium"  
     class: "fa fa-medium"
 
-# Site menu settings
 menu:
   - title: "Projects"
     url: "/projects"
@@ -105,5 +199,3 @@ menu:
     url: "https://axeljeremy7.github.io"
   - title: "Blog"
     url: "/blog"
-
-# End

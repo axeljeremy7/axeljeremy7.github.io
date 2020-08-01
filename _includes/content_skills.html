@@ -1,5 +1,10 @@
 <div id="skills" class="selectors">
-    <div class="title-option">
-        SKILLS
-    </div>
+  <div class="title-option">
+    SKILLS
+  </div>
+  <ul class="skills-list-container">
+    {% for skills in site.skills %} {% assign skill_item = skills[1]%}
+    <li class="none skill-item">{{skill_item.skill}}</li>
+    {% endfor %}
+  </ul>
 </div>

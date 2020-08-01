@@ -1,8 +1,27 @@
 <div id="experience" class="selectors">
-    <div class="title-option">
-        EXPERIENCE
-    </div>
-    <div>
+  <div class="title-option">
+    EXPERIENCE
+  </div>
 
+  <div class="description-list-container">
+    {% for items in site.experience %} {% assign experience_item = items[1]%}
+    <div class="description-list-item mb16">
+      <div class="description-header fw700 mb8">
+        <div class="description-title fw700">
+          {{experience_item.title}}
+        </div>
+        <div class="description-date fw700">
+          {{experience_item.date}}
+        </div>
+      </div>
+      <ul class="description-items ml48">
+        {% for description_item in experience_item.list %}
+        <li class="description-item square">
+          {{description_item}}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
+    {% endfor %}
+  </div>
 </div>

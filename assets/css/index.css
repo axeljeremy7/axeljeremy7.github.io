@@ -30,6 +30,18 @@
   --teal-blue: #467d8f;
 }
 
+li.square {
+  list-style-type: square;
+}
+
+li.none {
+  list-style-type: none;
+}
+
+li.circle {
+  list-style-type: circle;
+}
+
 i {
   background-color: transparent;
 }
@@ -50,6 +62,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -65,7 +81,11 @@ img {
 }
 
 .fs32 {
-    font-size: 32px !important;
+  font-size: 32px !important;
+}
+
+.fs24 {
+  font-size: 24px !important;
 }
 
 .fs16 {
@@ -77,11 +97,51 @@ img {
 }
 
 .fw700 {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.fw800 {
+  font-weight: 800;
+}
+
+.fw900 {
+  font-weight: 900;
 }
 
 .mb16 {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.ml4 {
+  margin-left: 4px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.ml16 {
+  margin-left: 16px;
+}
+
+.ml32 {
+  margin-left: 32px;
+}
+
+.ml48 {
+  margin-left: 48px;
+}
+
+.ml64 {
+  margin-left: 64px;
 }
 
 .bg-transparent {
@@ -120,6 +180,7 @@ img {
   height: 100vh;
   justify-content: flex-start;
   align-content: center;
+  width: calc(100vw - 280px - 32px);
 }
 
 .about {
@@ -172,7 +233,6 @@ img {
 #sidebar {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   width: 280px;
   background-color: var(--midnight-green-eagle);
   height: 100vh;
@@ -197,6 +257,7 @@ img {
 .about-options-text.active {
   border-radius: 4px;
   background-color: var(--midnight-green-eagle-green);
+  color: var(--gainsboro);
 }
 
 .about-options-title {
@@ -209,37 +270,128 @@ img {
 }
 
 #resume-link {
-    display: grid;
-    justify-content: flex-start;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 8px;
-    background-color: var(--blue-sapphire);
-    padding: 12px 16px;
-    border-radius: 4px;
+  display: grid;
+  justify-content: flex-start;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 8px;
+  background-color: var(--blue-sapphire);
+  padding: 12px 16px;
+  border-radius: 4px;
 }
 
 #resume-link:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .view-resume {
-    font-weight: 900;
-    color: var(--gainsboro);
+  font-weight: 900;
+  color: var(--gainsboro);
 }
 
 .title-option {
-    font-weight: 900;
-    color: var(--japanese-indigo);
-    margin-bottom: 24px;
-    font-size: 40px;
+  font-weight: 900;
+  color: var(--japanese-indigo);
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+
+.skills-list-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 32px;
+  row-gap: 32px;
+  width: inherit;
+}
+
+.skill-item {
+  display: grid;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--japanese-indigo);
+  text-align: center;
+}
+
+.skill-item:hover {
+  box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.2);
+}
+
+.description-list-container{
+  width: 100%;
+}
+
+.description-header{
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, auto);
+}
+
+.go-up{
+  display: none;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  color: var(--blue-sapphire);
+  cursor: pointer;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: white;
+  background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #c4c4c4;
+  background-color: #c4c4c4;
 }
+
+@media (max-width: 700px) {
+  body {
+    height: unset;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  #default {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  #content {
+    width: 100vw;
+    height: unset;
+    overflow-x: hidden;
+    padding: 0;
+  }
+  
+  #sidebar {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .selectors {
+    justify-content: flex-start;
+    align-content: center;
+    width: 100vw;
+    padding: 12px;
+  }
+
+  .go-up{
+    display: grid;
+  }
+
+}
+
+@media (max-width: 500px) {
+  
+  .skills-list-container{
+    column-gap: 4px;
+    row-gap: 32px;
+  }
+
+}
+

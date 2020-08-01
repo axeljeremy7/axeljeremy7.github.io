@@ -1,21 +1,27 @@
 <script type="text/javascript">
-function activeOptionLink(elem){
-    // console.log(elem);
-    let list = document.querySelector('div.about-options');
-    Array.from(list.children).forEach(element => {
-        element.classList.remove("active");
+  function activeOptionLink(elem) {
+    let list = document.querySelector("div.about-options");
+    Array.from(list.children).forEach((element) => {
+      element.classList.remove("active");
     });
     elem.classList.add("active");
-}
+  }
 
-(function(){
-    let hash = window.location.hash;
-    if(hash){
-        let elem = document.getElementById(`${hash.replace("#", "")}-text-title`);
-        if(elem){
-            elem.classList.add("active");
-        }        
+  function goUp(){
+    let elem = document.getElementById("body");
+    if(elem){
+        elem.scrollIntoView();
     }
-})()
+  }
 
+  (function () {
+    let hash = window.location.hash;
+    console.log(hash);
+    if (hash) {
+      let elem = document.getElementById(`${hash.replace("#", "")}-text-title`);
+      if (elem) {
+        elem.classList.add("active");
+      }
+    }
+  })();
 </script>

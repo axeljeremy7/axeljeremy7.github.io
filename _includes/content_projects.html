@@ -1,8 +1,13 @@
 <div id="projects" class="selectors">
-    <div class="title-option">
-        PROJECTS
-    </div>
-    <div>
-
-    </div>
+  <div class="title-option">
+    PROJECTS
+  </div>
+  <div class="ml32">
+    <ul>
+      {% for repo_links in site.repo_urls %} {% assign repolinks =
+      repo_links[1]%}
+      <li class="square mb8"><a href="{{ repolinks.url}}">{{repolinks.label}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
