@@ -382,6 +382,7 @@ img {
 
   .go-up{
     display: grid;
+    padding: 4px;
   }
 
 }
