@@ -25,7 +25,8 @@ experience:
     title: "Full-Stack Engineer"
     date: "September 2019" 
     list:
-      - Developed and maintained web and mobile applications using React, React Native and Symfony.
+      - Development and maintenance of web applications mainly with React and Symfony.
+      - Published React Native application in iOS and Android platforms.
       - Integration with AWS services.
       - REST API design and development.
       - Assembled Chat Application in React and React Native using Twilio SDK.
