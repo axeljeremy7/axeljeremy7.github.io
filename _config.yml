@@ -118,7 +118,7 @@ skills:
 repo_urls:
   React App - Music App:
     url: "https://music-app-1-dba6f.firebaseapp.com"
-    label: "React App - Music App - Live Now!"
+    label: "React App - Music App"
     icon: ""
   mypage:
     url: "https://github.com/axeljeremy7/axeljeremy7.github.io"
@@ -150,7 +150,7 @@ repo_urls:
     icon: ""
   mater1:
     url: "https://axeljeremy7.github.io/materialize1/"
-    label: "Materialize #1 : Westworld - Click to see in live"
+    label: "Materialize Westworld"
     icon: ""
   groupCal:
     url: "https://github.com/axeljeremy7/GroupCalendar"
@@ -158,7 +158,7 @@ repo_urls:
     icon: ""
   PUBG:
     url: "https://github.com/axeljeremy7/PUBG"
-    label: "PUBG Kaggle"
+    label: "PUBG Kaggle - Tree Models and Deep Learning"
     icon: ""
   For SalesPage - Data Matching Problem:
     url: "https://github.com/OryGregS/SeniorProject"
