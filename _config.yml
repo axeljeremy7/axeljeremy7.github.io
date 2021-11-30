@@ -21,7 +21,7 @@ resume_url: "https://drive.google.com/file/d/14TxalMw5kqCN1Cc8PiKHn4F10swEBQwH/v
 
 experience:
   Full-Stack Engineer 1:
-    title: "Full-Stack Engineer"
+    title: "Full-Stack Engineer CorePHP/dspworkplace"
     date: "September 2019" 
     list:
       - Development and maintenance of web applications mainly with React and Symfony.
@@ -116,7 +116,7 @@ skills:
     img: "" 
 
 repo_urls:
-  React App - Music App - Live Now!:
+  React App - Music App:
     url: "https://music-app-1-dba6f.firebaseapp.com"
     label: "React App - Music App - Live Now!"
     icon: ""
