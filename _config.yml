@@ -10,8 +10,7 @@ You can hide this column with the button below."
 
 description2: "Also, If you'd like to contact me, just click on the icons below."
 
-description3: "I'm an immigrant. I graduated with a major in computer science and a minor in data science. 
-      I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing. I'm currently working as Full-Stack Engineer and React Native Deveoper in CorePHP using mainly JavaScript, PHP, Node.JS, React, React Native and Symfony."
+description3: "I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing. I'm currently working as Full-Stack Engineer and React Native Deveoper in CorePHP using mainly JavaScript, PHP, Node.JS, React, React Native and Symfony."
 
 
 url: "https://axeljeremy7.github.io"
@@ -22,7 +21,7 @@ resume_url: "https://drive.google.com/file/d/14TxalMw5kqCN1Cc8PiKHn4F10swEBQwH/v
 experience:
   Full-Stack Engineer 1:
     title: "Full-Stack Engineer CorePHP/dspworkplace"
-    date: "September 2019" 
+    date: "September 2019 - June 2022" 
     list:
       - Development and maintenance of web applications mainly with React and Symfony.
       - Published React Native application in iOS and Android platforms.
