@@ -183,11 +183,11 @@ contact_urls:
     icon: "/assets/img/mail-64.png"
     class: "fa fa-envelope"
   twitter:
-    url: "https://twitter.com/axeljeremy7"
+    url: ""
     label: "Twitter"
     class: "fa fa-twitter"
   Medium:
-    url: "https://medium.com/@axel.jeremy.7"
+    url: ""
     label: "Medium"  
     class: "fa fa-medium"
 
