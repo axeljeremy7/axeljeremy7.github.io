@@ -3,14 +3,14 @@
 name: Axel Jeremy Solano
 markdown: kramdown
 
-introduction: "Hi, my name is Axel Jeremy Solano and I'm am Full-Stack engineer. Welcome!"
+introduction: "Hi, my name is Axel. Welcome!"
 
 description: "This site was created to show my resume, projects, skills and is still work in progress.
 You can hide this column with the button below."
 
 description2: "Also, If you'd like to contact me, just click on the icons below."
 
-description3: "I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing. I'm currently working as Full-Stack Engineer and React Native Deveoper in CorePHP using mainly JavaScript, PHP, Node.JS, React, React Native and Symfony."
+description3: "I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing."
 
 
 url: "https://axeljeremy7.github.io"
