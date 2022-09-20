@@ -177,9 +177,9 @@ contact_urls:
     icon: "/assets/img/github-64.png"
     class: "fa fa-github"
   email:
-    url: "mailto:axel.jeremy.7@gmail.com"
+    url: ""
     label: "Email"
-    value: "axel.jeremy.7@gmail.com"
+    value: ""
     icon: "/assets/img/mail-64.png"
     class: "fa fa-envelope"
   twitter:
