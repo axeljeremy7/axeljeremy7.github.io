@@ -165,24 +165,24 @@ repo_urls:
 
 
 contact_urls:
-  twitter:
-    url: ""
-    label: "Twitter"
-    class: "fa fa-twitter"
-  Medium:
-    url: ""
-    label: "Medium"  
-    class: "fa fa-medium"
+#   twitter:
+#     url: ""
+#     label: "Twitter"
+#     class: "fa fa-twitter"
+#   Medium:
+#     url: ""
+#     label: "Medium"  
+#     class: "fa fa-medium"
   linkedin:
     url: "https://www.linkedin.com/in/axel-solano/"
     label: "LinkedIn"
     icon: "/assets/img/white-linkedin-64.png"
-    class: "fa fa-linkedin"
+    class: "fa-brands fa-linkedin"
   github:
     url: "https://github.com/axeljeremy7"
     label: "GitHub"
     icon: "/assets/img/github-64.png"
-    class: "fa fa-github"
+    class: "fa-brands fa-github"
 #   email:
 #     url: ""
 #     label: "Email"
