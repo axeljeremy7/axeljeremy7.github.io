@@ -166,6 +166,14 @@ repo_urls:
 
 
 contact_urls:
+  twitter:
+    url: ""
+    label: "Twitter"
+    class: "fa fa-twitter"
+  Medium:
+    url: ""
+    label: "Medium"  
+    class: "fa fa-medium"
   linkedin:
     url: "https://www.linkedin.com/in/axel-solano/"
     label: "LinkedIn"
@@ -176,20 +184,12 @@ contact_urls:
     label: "GitHub"
     icon: "/assets/img/github-64.png"
     class: "fa fa-github"
-  email:
-    url: ""
-    label: "Email"
-    value: ""
-    icon: "/assets/img/mail-64.png"
-    class: "fa fa-envelope"
-  twitter:
-    url: ""
-    label: "Twitter"
-    class: "fa fa-twitter"
-  Medium:
-    url: ""
-    label: "Medium"  
-    class: "fa fa-medium"
+#   email:
+#     url: ""
+#     label: "Email"
+#     value: ""
+#     icon: "/assets/img/mail-64.png"
+#     class: "fa fa-envelope"
 
 menu:
   - title: "Projects"
