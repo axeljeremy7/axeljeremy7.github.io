@@ -178,7 +178,7 @@ contact_urls:
     url: "https://www.linkedin.com/in/axel-solano/"
     label: "LinkedIn"
     icon: "/assets/img/white-linkedin-64.png"
-    class: "fa fa-linkedin-square"
+    class: "fa fa-linkedin"
   github:
     url: "https://github.com/axeljeremy7"
     label: "GitHub"
