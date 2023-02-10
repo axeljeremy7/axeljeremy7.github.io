@@ -71,7 +71,7 @@ skills:
     skill: "Python"
     img: ""
   JS:
-    skill: "JS"
+    skill: "JS/TS"
     img: ""
   Node.js:
     skill: "Node.js"
@@ -88,8 +88,8 @@ skills:
   Java:
     skill: "Java"
     img: ""  
-  Maven:
-    skill: "Maven"
+  ML:
+    skill: "ML"
     img: ""
   Ruby:
     skill: "Ruby"
