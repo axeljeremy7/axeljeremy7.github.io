@@ -9,7 +9,7 @@ description: "This site was created to show my resume, projects, skills and is s
 
 description2: "Also, If you'd like to contact me, just click on the icons below."
 
-description3: "I'm currently pursuing a Master in Data Science. I had previously worked as Full Stack and React/React Native engineer. I'm interested in ML, AI and software/web/mobile development."
+description3: "I'm currently pursuing a Master in Data Science. I had previously worked as Full Stack and React/React Native engineer. I'm now interested in ML and AI reasearch and app development."
 
 
 url: "https://axeljeremy7.github.io"
@@ -18,6 +18,12 @@ url: "https://axeljeremy7.github.io"
 resume_url: "https://drive.google.com/file/d/1J_Ff4lrxKviSmg1gKvndGieeeWEbT6hr/view?usp=sharing"
 
 experience:
+  Researcher Assistant:
+    title: "Researcher Assistane"
+    date: "May 2023 - Ausgust 2023" 
+    list:
+      - Exploratory research with LLM and PEFT with RGN/genetics.
+      - Improvements on Spiking Neural Networks for BINDSNET.
   Full-Stack Engineer 1:
     title: "Full-Stack Engineer CorePHP/dspworkplace"
     date: "September 2019 - June 2022" 
