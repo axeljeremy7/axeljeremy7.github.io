@@ -95,15 +95,6 @@ skills:
   Java:
     skill: "Java"
     img: ""  
-  ML:
-    skill: "ML"
-    img: ""
-  Ruby:
-    skill: "Ruby"
-    img: ""
-  C/C++:
-    skill: "C/C++"
-    img: ""
   PHP:
     skill: "PHP"
     img: ""
@@ -127,7 +118,17 @@ skills:
     img: "" 
   HuggingFace:
     skill: "Hugging Face"
-    img: ""    
+    img: ""  
+  ML:
+    skill: "ML"
+    img: ""
+  Ruby:
+    skill: "Ruby"
+    img: ""
+  C/C++:
+    skill: "C/C++"
+    img: ""  
+    
     
 
 repo_urls:
