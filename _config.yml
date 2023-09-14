@@ -24,8 +24,9 @@ experience:
     title: "Researcher Assistant on Levin's Lab"
     date: "May 2023 - August 2023" 
     list:
-      - Exploratory research with LLM and PEFT with RGN/genetics.
-      - Improvements on Spiking Neural Networks for BINDSNET.
+      - Conducted research focused on Spiking Neural Networks for BindsNET project.
+      - Led a focused exploratory analysis on biology and genetics research papers using Latent Language Models (LLMs). 
+      - Compared the performance of open-source models against OpenAI''s GPT series to uncover key patterns, insights, and limitations.
   Full-Stack Engineer 1:
     title: "Full-Stack Engineer CorePHP/dspworkplace"
     date: "September 2019 - June 2022" 
