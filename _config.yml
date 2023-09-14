@@ -29,11 +29,10 @@ experience:
     title: "Full-Stack Engineer CorePHP/dspworkplace"
     date: "September 2019 - June 2022" 
     list:
-      - Development and maintenance of web applications mainly with React and Symfony.
-      - Published React Native application in iOS and Android platforms.
-      - Integration with AWS services.
-      - REST API design and development.
-      - Assembled Chat Application in React and React Native using Twilio SDK.
+      - Orchestrated the full-cycle development and deployment of the "dspworkplace.com" app for web and mobile platforms, achieving successful launches on iOS and Android.
+      - Led the integration of real-time chat and notifications for "dspworkplace.com," utilizing React and React Native with Twilio SDK to support between 1,000 and 5,000 active users.
+      - Directed the strategic adoption of AWS services for optimized cloud storage and database management, enhancing both scalability and performance.
+      - Engineered RESTful APIs focused on secure and efficient data exchange, while also contributing to the development and maintenance of React and Symfony-based web applications.
   Teaching Assistant/Grader for R Programming for Data Science:
     title: "Teaching Assistant/Grader for R Programming for Data Science"
     date: "Jan 2018 & 2019 - April 2018 & 2019" 
