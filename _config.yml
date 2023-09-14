@@ -107,8 +107,8 @@ skills:
   PHP:
     skill: "PHP"
     img: ""
-  C#/.NET:
-    skill: "C#/.NET"
+  Keras:
+    skill: "Keras"
     img: "" 
   AWS:
     skill: "AWS"
@@ -119,6 +119,16 @@ skills:
   TensorFlow:
     skill: "TensorFlow"
     img: "" 
+  PyTorch:
+    skill: "PyTorch"
+    img: "" 
+  LLM:
+    skill: "LLM"
+    img: "" 
+  HuggingFace:
+    skill: "Hugging Face"
+    img: ""    
+    
 
 repo_urls:
   React App - Music App:
