@@ -1,4 +1,4 @@
-
+c
 
 name: Axel J. Solano
 markdown: kramdown
@@ -20,7 +20,7 @@ resume_url: "https://drive.google.com/file/d/1J_Ff4lrxKviSmg1gKvndGieeeWEbT6hr/v
 experience:
   Researcher Assistant:
     title: "Researcher Assistant on Levin's Lab"
-    date: "May 2023 - August 2023" 
+    date: "May 2023 - December 2023" 
     list:
       - Conducted research focused on Spiking Neural Networks for BindsNET project.
       - Led a focused exploratory analysis on biology and genetics research papers using Latent Language Models (LLMs). 
