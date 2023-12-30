@@ -1,33 +1,40 @@
-
-
-name: Axel Jeremy Solano
+name: Axel J. Solano
 markdown: kramdown
 
 introduction: "Hi, my name is Axel. Welcome!"
 
-description: "This site was created to show my resume, projects, skills and is still work in progress.
-You can hide this column with the button below."
+description: "This site was created to show my resume, projects, skills and is still work in progress."
 
 description2: "Also, If you'd like to contact me, just click on the icons below."
 
-description3: "I'm interested in Software and Web development, Mobile applications, ML, AI, and scientific computing."
+description3: "Hello! I'm a Master's Candidate in Data Science at Tufts University. My journey on AI spans from the theoretical realms of statistical learning theory to practical applications across diverse fields such as science, natural language processing, imaging, genetics, biology, and medicine. I'm deeply invested in exploring how big data, AI, algorithms, and systems can shape and influence our society. My  interests lie in the foundations and practical applications of statistically-based algorithms, which are pivotal in creating robust data-centric models, making accurate predictions, and facilitating informed decisions. Furthermore, I am committed to understanding the mathematical foundations that underpin information theory, machine learning, algorithms, and systems."
+
+description4: "In April 2023, I took a significant step in my career by joining the Levin Lab at the Allen Discovery Center at Tufts University, under the guidance of Dr. Hanale Hazan. Here, I am expanding my expertise through advanced projects involving spiking neural networks (SNN) for BindsNET, and large language models (LLMs) such as Falcon, LLaMA, MPT, Vicuna, Guanuco, and various open-source GPT models. My focus in these projects is on the fine-tuning of these models for exploratory analysis in genetics and biology papers, a challenging yet exciting venture."
+
+description5: "My background in software development forms a strong foundation for my current pursuits. I have expert-level proficiency in Web and Mobile Development, with a particular focus on technologies like React, React Native, JavaScript, and TypeScript. Additionally, my back-end skills are well-established, with significant experience in Symfony, PHP, MySQL, and MongoDB, particularly in the AWS cloud environment."
+
+description6: "My goal is to seamlessly integrate my software development skills with my machine learning knowledge to create impactful, data-driven solutions. I am a firm believer in the open-source, research-based progression towards understanding and developing Advanced General Intelligence (AGI) systems. I am committed to ensuring that these systems are reliable, responsible, and align with human and cultural values. My ambition is to apply cutting-edge AI techniques to address real-world problems, making a meaningful difference through technology."
 
 
 url: "https://axeljeremy7.github.io"
 # url: "http://127.0.0.1:4000"
 
-resume_url: "https://drive.google.com/file/d/1-66im85mUIkum4kuyVX6je1Uh0QisCDa/view?usp=sharing"
+resume_url: "https://drive.google.com/file/d/1RhNs8roXOkrmGIVHQSqAbH7dcBn6fxLU/view?usp=sharing"
 
 experience:
+  Researcher Assistant:
+    title: "Researcher Assistant on Levin Lab"
+    date: "April 2023 - December 2023" 
+    list:
+      - Conducted research focused on Spiking Neural Networks for BindsNET project.
+      - Performed exploratory analysis using PEFT, QLoRa, LoRA fine-tuning, vector databases with in context learning on biology and genetics research papers using open-source  Large Language Models (LLMs) such as LLaMA, Vicuna, Falcon series to uncover their capabilities.
   Full-Stack Engineer 1:
     title: "Full-Stack Engineer CorePHP/dspworkplace"
     date: "September 2019 - June 2022" 
     list:
-      - Development and maintenance of web applications mainly with React and Symfony.
-      - Published React Native application in iOS and Android platforms.
-      - Integration with AWS services.
-      - REST API design and development.
-      - Assembled Chat Application in React and React Native using Twilio SDK.
+      - Orchestrated the development of the "dspworkplace.com" mobile application, enabling real-time chat and push notifications using React Native, Twilio, and Plivo SDKs, and successfully scaled to support an active user base of 1,000-5,000 on iOS and Android platforms.
+      - Contributed to the collective development and launch of the "dspworkplace.com" web app, focusing on the integration of scheduling events, mobile workflow design, and chatbot functionality to facilitate efficient user interactions.
+      - Delivered expert full-stack development and RESTful API consultancy, addressing intricate technical challenges and propelling project objectives for diverse clients, with a toolkit comprising Symfony, PHP, HTML, JavaScript, CSS, jQuery, React, .NET, and MySQL/MongoDB, along with AWS for enhanced cloud storage and database optimization.
   Teaching Assistant/Grader for R Programming for Data Science:
     title: "Teaching Assistant/Grader for R Programming for Data Science"
     date: "Jan 2018 & 2019 - April 2018 & 2019" 
@@ -72,7 +79,7 @@ skills:
     skill: "Python"
     img: ""
   JS:
-    skill: "JS"
+    skill: "JS/TS"
     img: ""
   Node.js:
     skill: "Node.js"
@@ -89,20 +96,11 @@ skills:
   Java:
     skill: "Java"
     img: ""  
-  Maven:
-    skill: "Maven"
-    img: ""
-  Ruby:
-    skill: "Ruby"
-    img: ""
-  C/C++:
-    skill: "C/C++"
-    img: ""
   PHP:
     skill: "PHP"
     img: ""
-  C#/.NET:
-    skill: "C#/.NET"
+  Keras:
+    skill: "Keras"
     img: "" 
   AWS:
     skill: "AWS"
@@ -113,6 +111,26 @@ skills:
   TensorFlow:
     skill: "TensorFlow"
     img: "" 
+  PyTorch:
+    skill: "PyTorch"
+    img: "" 
+  LLM:
+    skill: "LLM"
+    img: "" 
+  HuggingFace:
+    skill: "Hugging Face"
+    img: ""  
+  ML:
+    skill: "ML"
+    img: ""
+  Ruby:
+    skill: "Ruby"
+    img: ""
+  C/C++:
+    skill: "C/C++"
+    img: ""  
+    
+    
 
 repo_urls:
   React App - Music App:
@@ -166,30 +184,30 @@ repo_urls:
 
 
 contact_urls:
+#   twitter:
+#     url: ""
+#     label: "Twitter"
+#     class: "fa fa-twitter"
+#   Medium:
+#     url: ""
+#     label: "Medium"  
+#     class: "fa fa-medium"
   linkedin:
     url: "https://www.linkedin.com/in/axel-solano/"
     label: "LinkedIn"
     icon: "/assets/img/white-linkedin-64.png"
-    class: "fa fa-linkedin-square"
+    class: "fa-brands fa-linkedin-in"
   github:
     url: "https://github.com/axeljeremy7"
     label: "GitHub"
     icon: "/assets/img/github-64.png"
-    class: "fa fa-github"
-  email:
-    url: "mailto:axel.jeremy.7@gmail.com"
-    label: "Email"
-    value: "axel.jeremy.7@gmail.com"
-    icon: "/assets/img/mail-64.png"
-    class: "fa fa-envelope"
-  twitter:
-    url: ""
-    label: "Twitter"
-    class: "fa fa-twitter"
-  Medium:
-    url: ""
-    label: "Medium"  
-    class: "fa fa-medium"
+    class: "fa-brands fa-github"
+#   email:
+#     url: ""
+#     label: "Email"
+#     value: ""
+#     icon: "/assets/img/mail-64.png"
+#     class: "fa fa-envelope"
 
 menu:
   - title: "Projects"
