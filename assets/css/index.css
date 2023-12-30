@@ -176,6 +176,12 @@ img {
   overflow-y: hidden;
 }
 
+#about {
+ display: grid;
+ grid-row-gap: 16px;
+ font-size: 20px;
+}
+
 .selectors {
   height: 100vh;
   justify-content: flex-start;
