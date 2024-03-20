@@ -28,14 +28,14 @@ experience:
     title: "Researcher Assistant on Levin Lab"
     date: "April 2023 - December 2023" 
     list:
-      - Conducted research focused on Spiking Neural Networks for BindsNET project.
-      - Performed exploratory analysis using PEFT, QLoRa, LoRA fine-tuning, vector databases with in context learning on biology and genetics research papers using open-source  Large Language Models (LLMs) such as LLaMA, Vicuna, Falcon series to uncover their capabilities.
+      - Contributed to the BindsNET project, a Python package for simulating spiking neural networks (SNNs) on CPUs/GPUs using PyTorch, by focusing on the integration of surrogate learning methods to advance biologically inspired machine learning algorithms.
+      - Lead exploratory analysis using PEFT, QLoRa, LoRA, fine-tuning, vector databases with in-context-learning on biology and genetics research papers using open-source Large Language Models (LLMs) such as LLaMA, Vicuna, Falcon series to uncover their capabilities.
   Full-Stack Engineer 1:
     title: "Full-Stack Engineer CorePHP/dspworkplace"
     date: "September 2019 - June 2022" 
     list:
       - Orchestrated the development of the "dspworkplace.com" mobile application, enabling real-time chat and push notifications using React Native, Twilio, and Plivo SDKs, and successfully scaled to support an active user base of 1,000-5,000 on iOS and Android platforms.
-      - Contributed to the collective development and launch of the "dspworkplace.com" web app, focusing on the integration of scheduling events, mobile workflow design, and chatbot functionality to facilitate efficient user interactions.
+      - Spearheaded the collective development and launch of the "dspworkplace.com" web app, focusing on the integration of scheduling events, mobile workflow design, and chatbot functionality to facilitate efficient user interactions.
       - Delivered expert full-stack development and RESTful API consultancy, addressing intricate technical challenges and propelling project objectives for diverse clients, with a toolkit comprising Symfony, PHP, HTML, JavaScript, CSS, jQuery, React, .NET, and MySQL/MongoDB, along with AWS for enhanced cloud storage and database optimization.
   Teaching Assistant/Grader for R Programming for Data Science:
     title: "Teaching Assistant/Grader for R Programming for Data Science"
@@ -63,7 +63,7 @@ experience:
     date: "October 2017 - April 2019" 
     list:
       - Referee for soccer and volleyball.
-      - Team work and coordination with my partner referee to maintain sportsmanship.
+      - Teamwork and coordination with my partner referee to maintain sportsmanship.
       - Communicated effectively with players about sport rules and policies.
 
 
@@ -120,7 +120,7 @@ skills:
     skill: "LLM"
     img: "" 
   HuggingFace:
-    skill: "Hugging Face"
+    skill: "HuggingFace"
     img: ""  
   ML:
     skill: "ML"
