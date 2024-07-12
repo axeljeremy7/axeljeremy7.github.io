@@ -27,7 +27,7 @@ resume_url: "https://drive.google.com/file/d/1mu-x91BFigfoa_FRw7_mkTIctnNSoPSX/v
 experience:
   Researcher Assistant:
     title: "Researcher Assistant on Levin Lab"
-    date: "April 2023 - December 2023" 
+    date: "April 2023 - September 2024" 
     list:
       - Contributed to the BindsNET project, a Python package for simulating spiking neural networks (SNNs) on CPUs/GPUs using PyTorch, by focusing on the integration of surrogate learning methods to advance biologically inspired machine learning algorithms.
       - Lead exploratory analysis using PEFT, QLoRa, LoRA, fine-tuning, vector databases with in-context-learning on biology and genetics research papers using open-source Large Language Models (LLMs) such as LLaMA, Vicuna, Falcon series to uncover their capabilities.
