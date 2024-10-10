@@ -7,16 +7,17 @@ description: "This site was created to show my resume, projects, skills and is s
 
 description2: "Also, If you'd like to contact me, just click on the icons below."
 
-description3: "Hi there! I'm a Data Science Master's graduate from Tufts University. My journey on AI spans from the theoretical realms of statistical learning theory to practical applications across diverse fields such as science, natural language processing, imaging, genetics, biology, and medicine. I'm deeply invested in exploring how big data, AI, algorithms, and systems can shape and influence our society."
-description4: "In April 2023, I started working as a intern researcher at the Levin Lab at the Allen Discovery Center at Tufts under the guidance of Dr. Hananel Hazan. Here, I am expanding my expertise through advanced projects involving spiking neural networks (SNN) for BindsNET, and large language models (LLMs) such as Falcon, LLaMA, MPT, Vicuna, Guanuco, and various open-source GPT models. My focus in these projects is on the fine-tuning of these models for exploratory analysis in genetics and biology papers, a challenging yet exciting venture."
+description3: "Hi there! I'm a Data Science Master's graduate from Tufts University. My journey on AI spans from the theoretical realms of statistical learning theory to practical applications across diverse fields such as science, natural language processing, imaging, genetics, biology, and medicine."
 
-description5: "My background in software development forms a strong foundation for my current pursuits. I have expert-level proficiency in Web and Mobile Development, with a particular focus on technologies like React, React Native, JavaScript, and TypeScript. My back-end stack includes Symfony, PHP, MySQL, MongoDB, and more. I have substantial experience deploying applications, primarily on AWS and to some extent on GCP."
+description4: "In April 2023, I started working as a researcher at the Levin Lab at the Allen Discovery Center at Tufts under the guidance of Dr. Hananel Hazan. Here, I am expanding my expertise through advanced projects involving spiking neural networks (SNN) for BindsNET, and large language models (LLMs)."
 
-description6: "My goal is to seamlessly integrate my software development skills with my machine learning knowledge to create impactful, data-driven solutions. I am a firm believer in the open-source, research-based progression towards understanding and developing Advanced General Intelligence (AGI) systems. I am committed to ensuring that these systems are reliable, responsible, and align with human and cultural values. My ambition is to apply cutting-edge AI techniques to address real-world problems, making a meaningful difference through technology."
+description5: "My background in software development forms a strong foundation for my current pursuits. I have expert-level proficiency in Web and Mobile Development, with a particular focus on technologies like React, React Native, JavaScript, and TypeScript. My back-end stack includes Symfony, PHP, MySQL, MongoDB, and AWS."
+
+description6: "My goal is to seamlessly integrate my software development skills with my machine learning knowledge to create impactful, data-driven solutions.  My ambition is to apply cutting-edge AI techniques to address real-world problems, making a meaningful difference through technology."
 
 description7: "For any further inquiries or collaborative opportunities, the best way to reach out to me is via LinkedIn."
 
-description8: "If you're passionate about philosophy, neuroscience, and evolutionary biology, and enjoy exploring topics like free will, consciousness, agency, intelligence, complex systems, cognition, or active inference, I'd love to connect and discuss these fascinating subjects."
+description8: "If you're passionate about philosophy, neuroscience, and evolutionary thinking, and enjoy exploring topics like free will, consciousness, agency, intelligence, complex systems, cognition, or active inference, I'd love to connect and discuss these fascinating subjects."
 
 url: "https://axeljeremy7.github.io"
 # url: "http://127.0.0.1:4000"
@@ -26,7 +27,7 @@ resume_url: "https://drive.google.com/file/d/1mu-x91BFigfoa_FRw7_mkTIctnNSoPSX/v
 experience:
   Researcher Assistant:
     title: "Researcher Assistant on Levin Lab"
-    date: "April 2023 - September 2024" 
+    date: "April 2023 - May 2025" 
     list:
       - Contributed to the BindsNET project, a Python package for simulating spiking neural networks (SNNs) on CPUs/GPUs using PyTorch, by focusing on the integration of surrogate learning methods to advance biologically inspired machine learning algorithms.
       - Lead exploratory analysis using PEFT, QLoRa, LoRA, fine-tuning, vector databases with in-context-learning on biology and genetics research papers using open-source Large Language Models (LLMs) such as LLaMA, Vicuna, Falcon series to uncover their capabilities.
