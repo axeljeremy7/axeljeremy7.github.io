@@ -183,7 +183,7 @@ img {
 }
 
 .selectors {
-  height: 100vh;
+  min-height: 100vh;
   justify-content: flex-start;
   align-content: center;
   width: calc(100vw - 280px - 32px);
