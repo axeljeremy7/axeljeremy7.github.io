@@ -351,8 +351,8 @@ img {
 .go-up{
   display: none;
   position: fixed;
-  bottom: 8px;
-  right: 8px;
+  bottom: 32px;
+  right: 16px;
   color: var(--blue-sapphire);
   cursor: pointer;
   background-color: transparent;
