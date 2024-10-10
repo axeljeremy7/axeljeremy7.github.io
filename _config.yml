@@ -25,6 +25,11 @@ url: "https://axeljeremy7.github.io"
 resume_url: "https://drive.google.com/file/d/1mu-x91BFigfoa_FRw7_mkTIctnNSoPSX/view?usp=sharing"
 
 experience:
+  Stealth:
+    title: "Founder"
+    date: "September 2024 - May 2025" 
+    list:
+      - Building agents
   Researcher Assistant:
     title: "Researcher Assistant on Levin Lab"
     date: "April 2023 - May 2025" 
@@ -88,7 +93,7 @@ skills:
     skill: "Node.js"
     img: ""
   Express:
-    skill: "Express"
+    skill: "Next.js"
     img: ""
   REST:
     skill: "REST"
