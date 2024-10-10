@@ -7,10 +7,25 @@
     elem.classList.add("active");
   }
 
-  function goUp(){
-    let elem = document.getElementById("body");
-    if(elem){
-        elem.scrollIntoView();
+  // function goUp(){
+  //   let elem = document.getElementById("body");
+  //   if(elem){
+  //       elem.scrollIntoView();
+  //   }
+  // }
+
+  function goUp() {
+    try {
+        // Scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        // Reset the URL to the base URL without any hash or query parameters
+        history.pushState("", document.title, window.location.pathname);
+    } catch (error) {
+        console.error("An error occurred in goUp function:", error.message);
     }
   }
 
