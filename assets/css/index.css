@@ -195,6 +195,7 @@ img {
   grid-template-rows: repeat(4, auto);
   grid-row-gap: 20px;
   padding: 16px;
+  margin-botoom:20px;
 }
 
 .about-name {
