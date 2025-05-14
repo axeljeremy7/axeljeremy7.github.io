@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff;
+  /* background-color: #fff; */
   font-family: "Rajdhani", sans-serif;
   --midnight-green-eagle: #033748;
   --midnight-green-eagle-green: #124b5e;
@@ -30,6 +30,12 @@
   --teal-blue: #467d8f;
 }
 
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 /* body {
   height: 100vh;
   overflow-y: hidden;
@@ -39,10 +45,12 @@ body {
   height: 100vh;
   overflow-y: hidden;
   /* --- NEW BACKGROUND --- */
-  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%); /* Example: Light blue/lavender */
-  /* OR for a very subtle grey gradient: */
-  /* background: linear-gradient(to bottom right, #f7f7f7, #e9e9e9); */
-  /* --- END NEW BACKGROUND --- *//
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  /* background-color: rgba(255, 255, 255, 0.92); */
+  /* Semi-transparent white */
+  /* --- END NEW BACKGROUND --- */
   -webkit-font-smoothing: antialiased; /* Keep these if they were in body or * */
   -moz-osx-font-smoothing: grayscale;
 }
@@ -61,7 +69,9 @@ body {
   width: calc(100vw - 280px);
   overflow-y: auto;
   padding: 16px;
-  background-color: transparent; /* Important: to let the body gradient show through */
+  background-color: rgba(255, 255, 255, 0.92);
+  /* background-color: transparent;  */
+  /* Important: to let the body gradient show through */
   /* Keep other existing #content properties */
 }
 
