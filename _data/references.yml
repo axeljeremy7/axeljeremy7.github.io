@@ -11,4 +11,12 @@
   url: "https://drmichaellevin.org/"
   title: "Levin Lab at Tufts"
 
+- term: dspworkplace.com
+  url: "https://dspworkplace.com/"
+  title: "DSP Workplace"  
+
+- term: "fraudsniffr.com"
+  url: "https://fraudsniffr.com/"
+  title: "Fraud Sniffr"
+
 # Add any other terms you want to auto-link
