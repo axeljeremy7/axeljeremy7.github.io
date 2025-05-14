@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #fff; */
+  background-color: #fff;
   font-family: "Rajdhani", sans-serif;
   --midnight-green-eagle: #033748;
   --midnight-green-eagle-green: #124b5e;
@@ -30,62 +30,6 @@
   --teal-blue: #467d8f;
 }
 
-@keyframes gradientAnimation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* body {
-  height: 100vh;
-  overflow-y: hidden;
-} */
-
-body {
-  height: 100vh;
-  overflow-y: hidden;
-  /* --- NEW BACKGROUND --- */
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradientAnimation 15s ease infinite;
-  /* background-color: rgba(255, 255, 255, 0.92); */
-  /* Semi-transparent white */
-  /* --- END NEW BACKGROUND --- */
-  -webkit-font-smoothing: antialiased; /* Keep these if they were in body or * */
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-/* #content {
-  height: 100vh;
-  width: calc(100vw - 280px);
-  overflow-y: auto;
-  padding: 16px;
-} */
-
-/* Modify the existing #content rule or add this */
-#content {
-  height: 100vh;
-  width: calc(100vw - 280px);
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 16px;
-  background-color: rgba(255, 255, 255, 0.92);
-  /* background-color: transparent;  */
-  /* Important: to let the body gradient show through */
-  /* Keep other existing #content properties */
-}
-
-#sidebar {
-  overflow-y: hidden;
-}
-
-#about {
- display: grid;
- grid-row-gap: 16px;
- font-size: 20px;
-}
-
 li.square {
   list-style-type: square;
 }
@@ -100,6 +44,11 @@ li.circle {
 
 i {
   background-color: transparent;
+}
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 div {
@@ -214,6 +163,25 @@ img {
 #default {
   justify-content: flex-start;
   grid-template-columns: 280px auto;
+}
+
+#content {
+  height: 100vh;
+  width: calc(100vw - 280px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 16px;
+}
+
+#sidebar {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#about {
+ display: grid;
+ grid-row-gap: 16px;
+ font-size: 20px;
 }
 
 .selectors {
