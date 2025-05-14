@@ -194,7 +194,7 @@ repo_urls:
 contact_urls:
   twitter:
     url: "https://x.com/axel_kldiv"
-    label: "Twitter"
+    label: "X/Twitter"
     class: "fa-brands fa-x-twitter"
 #   Medium:
 #     url: ""
