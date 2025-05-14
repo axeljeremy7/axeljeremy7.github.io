@@ -195,7 +195,7 @@ contact_urls:
   twitter:
     url: "https://x.com/axel_kldiv"
     label: "Twitter"
-    class: "fa fa-twitter"
+    class: "fa-brands fa-x-twitter"
 #   Medium:
 #     url: ""
 #     label: "Medium"  
