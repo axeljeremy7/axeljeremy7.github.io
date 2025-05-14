@@ -4,9 +4,27 @@ title: "Axel J Solano: Home Page"
 header_title: Axel J Solano
 ---
 
-    {% include content_about.html %}
-		{% include content_experience.html %}
-		{% include content_skills.html %}
-		{% include content_education.html %}
-		{% include content_resume.html %}
-		{% include content_projects.html %}
+{% comment %} Process content_about.html for inline links {% endcomment %}
+{% capture about_section_content %}
+  {% include content_about.html %}
+{% endcapture %}
+
+{% assign processed_about_content = about_section_content %}
+{% if site.data.references and site.data.references.size > 0 %}
+  {% for ref_item in site.data.references %}
+    {% assign search_term = ref_item.term %}
+    {% capture link_html %}
+      <a href="{{ ref_item.url }}" target="_blank" rel="noopener noreferrer"{% if ref_item.title %} title="{{ ref_item.title }}"{% endif %}>{{ ref_item.term }}</a>
+    {% endcapture %}
+    {% assign processed_about_content = processed_about_content | replace: search_term, link_html %}
+  {% endfor %}
+{% endif %}
+
+{{ processed_about_content }}
+
+{% comment %} The rest of your includes {% endcomment %}
+{% include content_experience.html %}
+{% include content_skills.html %}
+{% include content_education.html %}
+{% include content_resume.html %}
+{% include content_projects.html %}

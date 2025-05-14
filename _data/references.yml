@@ -1,0 +1,14 @@
+# _data/references.yml
+- term: "Dr. Hananel Hazan"
+  url: "https://hananel.hazan.org.il/"
+  title: "Visit Hananel Hazan's website"
+
+- term: "BindsNET"
+  url: "https://bindsnet-docs.readthedocs.io/en/latest/"
+  title: "BindsNET Documentation"
+
+- term: "Levin Lab"
+  url: "https://drmichaellevin.org/"
+  title: "Levin Lab at Tufts"
+
+# Add any other terms you want to auto-link
