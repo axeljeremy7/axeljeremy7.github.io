@@ -68,6 +68,7 @@ body {
   height: 100vh;
   width: calc(100vw - 280px);
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.92);
   /* background-color: transparent;  */
