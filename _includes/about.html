@@ -9,8 +9,8 @@
       src="https://s3.amazonaws.com/dsp.data.storage.general/ade26743_2025_03_20_IMG_4462.enhanced.jpg?h=920&w=920"
     />
   </div>
-  <div class="font-white grid-center">
-    {{site.introduction}}
+  <div id="typewriter-text" class="font-white grid-center" data-text="{{ site.introduction }}">
+    <!-- This content will be filled by the JavaScript typewriter effect -->
   </div>
   <div class="about-container-links">
     {% for contact_links in site.contact_urls %} {% assign clinks =
