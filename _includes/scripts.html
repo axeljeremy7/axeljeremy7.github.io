@@ -1,18 +1,15 @@
+<!-- _includes/scripts.html -->
 <script type="text/javascript">
   function activeOptionLink(elem) {
     let list = document.querySelector("div.about-options");
-    Array.from(list.children).forEach((element) => {
-      element.classList.remove("active");
-    });
-    elem.classList.add("active");
+    // Check if list exists to prevent errors if the element isn't on the current page
+    if (list) {
+      Array.from(list.children).forEach((element) => {
+        element.classList.remove("active");
+      });
+      elem.classList.add("active");
+    }
   }
-
-  // function goUp(){
-  //   let elem = document.getElementById("body");
-  //   if(elem){
-  //       elem.scrollIntoView();
-  //   }
-  // }
 
   function goUp() {
     try {
@@ -23,20 +20,78 @@
         });
 
         // Reset the URL to the base URL without any hash or query parameters
-        history.pushState("", document.title, window.location.pathname);
+        if (history.pushState) { // Check if pushState is supported
+            history.pushState("", document.title, window.location.pathname + window.location.search); // Keep query params if any
+        } else {
+            // Fallback for older browsers or if you don't want to change URL
+            window.location.hash = ''; // This will add '#' but is a common fallback
+        }
     } catch (error) {
         console.error("An error occurred in goUp function:", error.message);
     }
   }
 
+  // Self-invoking function for initial hash handling (IIFE)
   (function () {
-    let hash = window.location.hash;
-    console.log(hash);
-    if (hash) {
-      let elem = document.getElementById(`${hash.replace("#", "")}-text-title`);
+    // Ensure this runs after DOM is ready too, or move it inside DOMContentLoaded
+    // For simplicity, let's assume it's okay here, but DOMContentLoaded is safer for DOM manipulations
+    if (window.location.hash) { // More direct check for hash
+      let hash = window.location.hash;
+      // console.log("Initial hash:", hash); // Keep for debugging if needed
+      // The replace("#", "") is good for IDs, ensure your IDs match
+      let elem = document.getElementById(hash.substring(1) + '-text-title');
       if (elem) {
         elem.classList.add("active");
+        // Optional: if activeOptionLink also handles highlighting the correct sidebar item
+        // activeOptionLink(elem);
       }
     }
   })();
+
+  // --- NEW TYPEWRITER SCRIPT ---
+  document.addEventListener('DOMContentLoaded', function() {
+    // Typewriter effect
+    const typewriterElement = document.getElementById('typewriter-text');
+    if (typewriterElement) {
+      const textToType = typewriterElement.dataset.text;
+      let charIndex = 0;
+      const typingSpeed = 100; // Milliseconds per character (adjust for speed)
+
+      function typeCharacter() {
+        if (charIndex < textToType.length) {
+          typewriterElement.textContent += textToType.charAt(charIndex);
+          charIndex++;
+          setTimeout(typeCharacter, typingSpeed);
+        } else {
+          // Optional: Add a class when typing is done to change styles
+          typewriterElement.classList.add('typing-done');
+        }
+      }
+
+      // Start the typing animation
+      if (textToType && textToType.length > 0) { // Check if textToType is not empty
+        typewriterElement.textContent = ''; // Clear any initial content
+        typeCharacter();
+      } else if (typewriterElement && textToType === "") {
+        // Handle case where data-text is intentionally empty, maybe hide cursor
+        typewriterElement.classList.add('typing-done'); // To hide cursor if CSS is set up
+      }
+    }
+
+    // You could also move the initial hash handling logic here
+    // to ensure it only runs after the DOM is fully ready:
+    /*
+    if (window.location.hash) {
+      let hash = window.location.hash;
+      let elem = document.getElementById(hash.substring(1) + '-text-title');
+      if (elem) {
+        elem.classList.add("active");
+        // If activeOptionLink is meant to be called on page load for a hash:
+        // activeOptionLink(elem); // This might be what you intend
+      }
+    }
+    */
+  });
+  // --- END OF NEW TYPEWRITER SCRIPT ---
+
 </script>
