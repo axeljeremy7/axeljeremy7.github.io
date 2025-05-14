@@ -425,21 +425,34 @@ img {
 /* In assets/css/index.css */
 
 /* Target links specifically within the #about section if needed */
-#about.selectors div a {
-  display: inline !important;  /* Force it to be inline */
-  white-space: normal !important; /* Allow normal word wrapping inside the link text */
-  padding: 0 !important;       /* Remove any default padding */
-  margin: 0 !important;        /* Remove any default margin */
-  vertical-align: baseline;  /* Align with surrounding text */
-  /* Optionally, ensure it doesn't try to take up full width if it were a block */
+/* Styles for the dynamically inserted inline links */
+a.inline-text-link {
+  display: inline !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  vertical-align: baseline !important; /* Important for aligning with surrounding text */
+  white-space: normal !important; /* Allows the link text itself to wrap if very long */
   width: auto !important;
   max-width: none !important;
+  border: none !important; /* Just in case */
+  outline: none !important; /* Just in case */
+
+  /* --- Styling for appearance (adjust as needed) --- */
+  color: var(--blue-sapphire); /* Or 'inherit' to match surrounding text */
+  text-decoration: underline;  /* Or 'none' */
+  /* font-weight: inherit; */ /* If you want to ensure it matches surrounding text weight */
+  background-color: transparent !important; /* Ensure no background is accidentally applied */
 }
 
-/* You might also want to ensure the parent div allows for normal text flow */
+a.inline-text-link:hover {
+  color: var(--green-crayola); /* Example */
+  text-decoration: underline !important;
+}
+
+/* This rule for the parent div is still good: */
 #about.selectors div {
-  /* Default for div is block, which is usually fine here.
-     Ensure no strange white-space or word-break properties are causing issues */
-  white-space: normal; /* Default, but good to check if it was changed */
-  word-break: normal;  /* Default, ensure it's not 'break-all' or similar */
+  white-space: normal;
+  word-break: normal;
+  /* Add this if line height seems off after link insertion */
+  /* line-height: inherit; */
 }
