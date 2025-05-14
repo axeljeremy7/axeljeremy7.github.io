@@ -435,7 +435,7 @@ a.inline-text-link {
   width: auto !important;
   max-width: none !important;
   border: none !important; 
-  color: var(--blue-sapphire)/
+  color: var(--blue-sapphire);
   text-decoration: underline; 
   background-color: transparent !important; 
 }
