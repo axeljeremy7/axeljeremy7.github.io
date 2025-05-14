@@ -33,65 +33,65 @@
 
   // Self-invoking function for initial hash handling (IIFE)
   (function () {
-    // Ensure this runs after DOM is ready too, or move it inside DOMContentLoaded
-    // For simplicity, let's assume it's okay here, but DOMContentLoaded is safer for DOM manipulations
-    if (window.location.hash) { // More direct check for hash
+    if (window.location.hash) {
       let hash = window.location.hash;
-      // console.log("Initial hash:", hash); // Keep for debugging if needed
-      // The replace("#", "") is good for IDs, ensure your IDs match
       let elem = document.getElementById(hash.substring(1) + '-text-title');
       if (elem) {
         elem.classList.add("active");
-        // Optional: if activeOptionLink also handles highlighting the correct sidebar item
-        // activeOptionLink(elem);
       }
     }
   })();
 
-  // --- NEW TYPEWRITER SCRIPT ---
+  // --- TYPEWRITER SCRIPT ---
   document.addEventListener('DOMContentLoaded', function() {
-    // Typewriter effect
-    const typewriterElement = document.getElementById('typewriter-text');
-    if (typewriterElement) {
-      const textToType = typewriterElement.dataset.text;
-      let charIndex = 0;
-      const typingSpeed = 100; // Milliseconds per character (adjust for speed)
+    // Reusable typewriter function
+    function initTypewriter(elementId, speed = 100) {
+      const typewriterElement = document.getElementById(elementId);
+      if (typewriterElement) {
+        const textToType = typewriterElement.dataset.text;
+        let charIndex = 0;
+        const typingSpeed = speed; // Milliseconds per character
 
-      function typeCharacter() {
-        if (charIndex < textToType.length) {
-          typewriterElement.textContent += textToType.charAt(charIndex);
-          charIndex++;
-          setTimeout(typeCharacter, typingSpeed);
-        } else {
-          // Optional: Add a class when typing is done to change styles
-          typewriterElement.classList.add('typing-done');
+        function typeCharacter() {
+          if (textToType && charIndex < textToType.length) { // Added check for textToType
+            typewriterElement.textContent += textToType.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeCharacter, typingSpeed);
+          } else {
+            // Optional: Add a class when typing is done
+            if (typewriterElement) { // Check if element still exists
+                typewriterElement.classList.add('typing-done');
+            }
+          }
         }
-      }
 
-      // Start the typing animation
-      if (textToType && textToType.length > 0) { // Check if textToType is not empty
-        typewriterElement.textContent = ''; // Clear any initial content
-        typeCharacter();
-      } else if (typewriterElement && textToType === "") {
-        // Handle case where data-text is intentionally empty, maybe hide cursor
-        typewriterElement.classList.add('typing-done'); // To hide cursor if CSS is set up
+        // Start the typing animation
+        if (textToType && textToType.length > 0) {
+          typewriterElement.textContent = ''; // Clear any initial content
+          typeCharacter();
+        } else if (typewriterElement && (textToType === "" || !textToType)) { // Handles empty or undefined data-text
+          typewriterElement.classList.add('typing-done'); // To hide cursor if CSS is set up
+        }
       }
     }
 
-    // You could also move the initial hash handling logic here
-    // to ensure it only runs after the DOM is fully ready:
+    // Apply typewriter effect to the introduction text
+    initTypewriter('typewriter-text', 100); // elementId for introduction, speed 100ms
+
+    // Apply typewriter effect to the name
+    initTypewriter('typewriter-name', 120); // elementId for name, speed 120ms (you can adjust)
+
+    // Initial hash handling (can remain here or be separate as before)
     /*
     if (window.location.hash) {
       let hash = window.location.hash;
       let elem = document.getElementById(hash.substring(1) + '-text-title');
       if (elem) {
         elem.classList.add("active");
-        // If activeOptionLink is meant to be called on page load for a hash:
-        // activeOptionLink(elem); // This might be what you intend
       }
     }
     */
   });
-  // --- END OF NEW TYPEWRITER SCRIPT ---
+  // --- END OF TYPEWRITER SCRIPT ---
 
 </script>
