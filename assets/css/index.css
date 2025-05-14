@@ -422,3 +422,24 @@ img {
 
 }
 
+/* In assets/css/index.css */
+
+/* Target links specifically within the #about section if needed */
+#about.selectors div a {
+  display: inline !important;  /* Force it to be inline */
+  white-space: normal !important; /* Allow normal word wrapping inside the link text */
+  padding: 0 !important;       /* Remove any default padding */
+  margin: 0 !important;        /* Remove any default margin */
+  vertical-align: baseline;  /* Align with surrounding text */
+  /* Optionally, ensure it doesn't try to take up full width if it were a block */
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* You might also want to ensure the parent div allows for normal text flow */
+#about.selectors div {
+  /* Default for div is block, which is usually fine here.
+     Ensure no strange white-space or word-break properties are causing issues */
+  white-space: normal; /* Default, but good to check if it was changed */
+  word-break: normal;  /* Default, ensure it's not 'break-all' or similar */
+}
