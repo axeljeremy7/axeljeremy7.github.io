@@ -24,6 +24,16 @@ url: "https://axeljeremy7.github.io"
 
 resume_url: ""
 
+app_urls:
+  MyCoolApp:
+    url: "https://alyonka.xyz"
+    label: "Alyonka App"
+    description: "Conversational research agent, AI assistant, and chatbot and mobile app"
+  AnotherApp:
+    url: "https://dermadora.vercel.app"
+    label: "DermaDora App"
+    description: "Skincare voice agent"
+
 experience:
   Stealth:
     title: "Founder"

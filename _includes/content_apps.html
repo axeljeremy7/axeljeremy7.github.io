@@ -1,0 +1,18 @@
+<div id="apps" class="selectors">
+  <div class="title-option">
+    APPS
+  </div>
+  <div class="ml32">
+    <ul>
+      {% for app_entry in site.app_urls %}
+        {% assign app = app_entry[1] %}
+        <li class="square mb8">
+          <a href="{{ app.url }}" target="_blank" rel="noopener noreferrer">{{ app.label }}</a>
+          {% if app.description %}
+            <p style="margin-left: 20px; font-size: 0.9em; color: #555;">{{ app.description }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
