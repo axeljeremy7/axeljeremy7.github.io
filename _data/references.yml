@@ -3,9 +3,13 @@
   url: "https://hananel.hazan.org.il/"
   title: "Visit Hananel Hazan's website"
 
-- term: "https://axelkldiv.substack.com/
+- term: "LinkedIn"
+  url: "https://www.linkedin.com/in/axel-solano/"
+  title: "Visit axel solano LinkedIn"
+
+- term: "axelkldiv.substack.com"
   url: "https://axelkldiv.substack.com/"
-  title: "axelkldiv.substack.com"
+  title: "Visit axelkldiv.substack.com"
 
 - term: "BindsNET"
   url: "https://bindsnet-docs.readthedocs.io/"
