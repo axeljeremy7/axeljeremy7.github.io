@@ -220,6 +220,10 @@ contact_urls:
     label: "GitHub"
     icon: "/assets/img/github-64.png"
     class: "fa-brands fa-github"
+  substack:
+    url: "https://axelkldiv.substack.com/"
+    label: "substack"
+    class: "fa-brands fa-x-twitter" 
 #   email:
 #     url: ""
 #     label: "Email"
