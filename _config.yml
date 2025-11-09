@@ -37,51 +37,50 @@ app_urls:
 experience:
   Stealth:
     title: "Founder"
-    date: "September 2024 - May 2025" 
+    date: "September 2024 - May 2025"
     list:
       - Building agents
   Machine Learning Researcher:
     title: "Machine Learning Researcher on Levin Lab"
-    date: "April 2023 - June 2025" 
+    date: "April 2023 - June 2025"
     list:
       - Contributed to the BindsNET project, a Python package for simulating spiking neural networks (SNNs) on CPUs/GPUs using PyTorch, by focusing on the integration of surrogate learning methods to advance biologically inspired machine learning algorithms.
       - Lead exploratory analysis using PEFT, QLoRa, LoRA, fine-tuning, vector databases with in-context-learning on biology and genetics research papers using open-source Large Language Models (LLMs) such as LLaMA, Vicuna, Falcon series to uncover their capabilities.
   Full-Stack Engineer 1:
     title: "Full-Stack & React Native Engineer corePHP"
-    date: "September 2019 - June 2022" 
+    date: "September 2019 - June 2022"
     list:
       - Orchestrated the development of the dspworkplace.com mobile application, enabling real-time chat and push notifications using React Native, Twilio, and Plivo SDKs, and successfully scaled to support an active user base of 1,000-5,000 on iOS and Android platforms.
       - Spearheaded the collective development and launch of the dspworkplace.com web app, focusing on the integration of scheduling events, mobile workflow design, and chatbot functionality to facilitate efficient user interactions.
       - Delivered expert full-stack development and RESTful API consultancy such as fraudsniffr.com, addressing intricate technical challenges and propelling project objectives for diverse clients, with a toolkit comprising Symfony, PHP, HTML, JavaScript, CSS, jQuery, React, .NET, and MySQL/MongoDB, along with AWS for enhanced cloud storage and database optimization.
   # Teaching Assistant/Grader for R Programming for Data Science:
   #   title: "Teaching Assistant/Grader for R Programming for Data Science"
-  #   date: "Jan 2018 & 2019 - April 2018 & 2019" 
+  #   date: "Jan 2018 & 2019 - April 2018 & 2019"
   #   list:
   #     - Assisted professor in the development of evaluations and multiple learning methods.
   #     - Communicated effectively to students to accelerate their learning process.
   # Teaching Assistant/Grader for Storage, Retrieval & Processing Big Data:
   #   title: "Teaching Assistant/Grader for Storage, Retrieval & Processing Big Data"
-  #   date: "September - December 2018" 
+  #   date: "September - December 2018"
   #   list:
-  #     - Assisted professor in Hadoop and hardware and software storage. 
+  #     - Assisted professor in Hadoop and hardware and software storage.
   # Teaching Assistant/Grader for Big Data, Cloud & loT:
   #   title: "Teaching Assistant/Grader for Big Data, Cloud & loT"
-  #   date: "June - August 2018" 
+  #   date: "June - August 2018"
   #   list:
   #     - Graded and provided feedback for assignments for Google Cloud Services and AWS.
   # Teaching Assistant/Grader for Database Management Systems:
   #   title: "Teaching Assistant/Grader for Database Management Systems"
-  #   date: "June - August 2018" 
+  #   date: "June - August 2018"
   #   list:
   #     - Graded and provided feedback for assignments for MySQL databases.
   # Intramural Official:
   #   title: "Intramural Official"
-  #   date: "October 2017 - April 2019" 
+  #   date: "October 2017 - April 2019"
   #   list:
   #     - Referee for soccer and volleyball.
   #     - Teamwork and coordination with my partner referee to maintain sportsmanship.
   #     - Communicated effectively with players about sport rules and policies.
-
 
 skills:
   React:
@@ -89,7 +88,7 @@ skills:
     img: ""
   React Native:
     skill: "React Native"
-    img: ""  
+    img: ""
   Symfony:
     skill: "Next.js"
     img: ""
@@ -107,37 +106,37 @@ skills:
     img: ""
   REST:
     skill: "REST"
-    img: ""  
+    img: ""
   DeepLearning:
     skill: "Deep Learning"
-    img: ""  
+    img: ""
   FastAPI:
     skill: "FastAPI"
-    img: ""  
+    img: ""
   PHP:
     skill: "PHP"
     img: ""
   Keras:
     skill: "Keras"
-    img: "" 
+    img: ""
   AWS:
     skill: "AWS"
     img: ""
   GCP:
     skill: "GCP"
-    img: ""        
+    img: ""
   TensorFlow:
     skill: "TensorFlow"
-    img: "" 
+    img: ""
   PyTorch:
     skill: "PyTorch"
-    img: "" 
+    img: ""
   LLM:
     skill: "LLM"
-    img: "" 
+    img: ""
   HuggingFace:
     skill: "HuggingFace"
-    img: ""  
+    img: ""
   ML:
     skill: "ML"
     img: ""
@@ -146,9 +145,7 @@ skills:
     img: ""
   C/C++:
     skill: "C/C++"
-    img: ""  
-    
-    
+    img: ""
 
 repo_urls:
   React App - Music App:
@@ -200,16 +197,15 @@ repo_urls:
     label: "Fuzzy Record Linkage - Data Matching Problem"
     icon: ""
 
-
 contact_urls:
   twitter:
     url: "https://x.com/axel_kldiv"
     label: "X/Twitter"
     class: "fa-brands fa-x-twitter"
-#   Medium:
-#     url: ""
-#     label: "Medium"  
-#     class: "fa fa-medium"
+  #   Medium:
+  #     url: ""
+  #     label: "Medium"
+  #     class: "fa fa-medium"
   linkedin:
     url: "https://www.linkedin.com/in/axel-solano/"
     label: "LinkedIn"
@@ -223,7 +219,7 @@ contact_urls:
   substack:
     url: "https://axelkldiv.substack.com/"
     label: "substack"
-    class: "fa-solid fa-blog" 
+    class: "fa-solid fa-substack"
 #   email:
 #     url: ""
 #     label: "Email"
