@@ -219,7 +219,7 @@ contact_urls:
   substack:
     url: "https://axelkldiv.substack.com/"
     label: "substack"
-    class: "fa-solid fa-substack"
+    class: "fa-solid bi bi-substack"
 #   email:
 #     url: ""
 #     label: "Email"
