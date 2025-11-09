@@ -37,7 +37,7 @@ app_urls:
 experience:
   Stealth:
     title: "Founder"
-    date: "September 2024 - May 2025"
+    date: "September 2024"
     list:
       - Building agents
   Machine Learning Researcher:
